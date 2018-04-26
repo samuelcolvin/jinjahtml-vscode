@@ -1,8 +1,8 @@
 {
   "name": "jinjahtml",
-  "displayName": "Jinja HTML Template Highlighting",
+  "displayName": "Jinja HTML Highlighting",
   "description": "Syntax highlighting for jinja(2) html templates",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "publisher": "samuelcolvin",
   "author": "Samuel Colvin",
   "engines": {
@@ -10,9 +10,7 @@
   },
   "license": "MIT",
   "icon": "icon.png",
-  "categories": [
-    "Languages", "Formatters"
-  ],
+  "categories": ["Languages"],
   "keywords": [
     "jinja",
     "jinja2",
@@ -26,13 +24,13 @@
     "languages": [
       {
         "id": "jinja-html",
-        "aliases": ["Jinja HTML Templates", "jinja-html"],
+        "aliases": ["Jinja HTML", "jinja-html"],
         "extensions": [".jinja", ".jinja2"],
         "configuration": "./language-configuration.json"
       },
       {
         "id": "jinja",
-        "aliases": ["jinja-raw"],
+        "aliases": ["Jinja Raw", "jinja-raw"],
         "extensions": []
       }
     ],
