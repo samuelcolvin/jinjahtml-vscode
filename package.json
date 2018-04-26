@@ -2,7 +2,7 @@
   "name": "jinjahtml",
   "displayName": "Jinja HTML Highlighting",
   "description": "Syntax highlighting for jinja(2) html templates",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "publisher": "samuelcolvin",
   "author": "Samuel Colvin",
   "engines": {
@@ -25,7 +25,7 @@
       {
         "id": "jinja-html",
         "aliases": ["Jinja HTML", "jinja-html"],
-        "extensions": [".jinja", ".jinja2"],
+        "extensions": [".jinja", ".jinja2", ".j2"],
         "configuration": "./language-configuration.json"
       },
       {
