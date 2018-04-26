@@ -1,26 +1,38 @@
 {
-    "name": "jinjahtml",
-    "displayName": "Jinja HTML Template Highlighting",
-    "description": "Syntax highlighting for jinja(2) html templates",
-    "version": "0.1.0",
-    "publisher": "samuelcolvin",
-    "engines": {
-        "vscode": "^1.22.0"
-    },
-    "categories": [
-        "Languages"
-    ],
-    "contributes": {
-        "languages": [{
-            "id": "jinja",
-            "aliases": ["Jinja HTML Templates", "jinja"],
-            "extensions": [".jinja"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "jinja",
-            "scopeName": "text.html.jinja",
-            "path": "./syntaxes/jinja.tmLanguage"
-        }]
-    }
+  "name": "jinjahtml",
+  "displayName": "Jinja HTML Template Highlighting",
+  "description": "Syntax highlighting for jinja(2) html templates",
+  "version": "0.1.1",
+  "publisher": "samuelcolvin",
+  "author": "Samuel Colvin",
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "categories": [
+    "Languages", "Formatters"
+  ],
+  "keywords": [
+    "jinja",
+    "jinja2",
+    "django"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samuelcolvin/jinjahtml-vscode.git"
+  },
+  "contributes": {
+    "languages": [{
+      "id": "jinja",
+      "aliases": ["Jinja HTML Templates", "jinja"],
+      "extensions": [".jinja"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "jinja",
+      "scopeName": "text.html.jinja",
+      "path": "./syntaxes/jinja.tmLanguage"
+    }]
+  }
 }
