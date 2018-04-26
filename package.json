@@ -2,7 +2,7 @@
   "name": "jinjahtml",
   "displayName": "Jinja HTML Template Highlighting",
   "description": "Syntax highlighting for jinja(2) html templates",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "publisher": "samuelcolvin",
   "author": "Samuel Colvin",
   "engines": {
@@ -23,16 +23,30 @@
     "url": "https://github.com/samuelcolvin/jinjahtml-vscode.git"
   },
   "contributes": {
-    "languages": [{
-      "id": "jinja",
-      "aliases": ["Jinja HTML Templates", "jinja"],
-      "extensions": [".jinja"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "jinja",
-      "scopeName": "text.html.jinja",
-      "path": "./syntaxes/jinja.tmLanguage"
-    }]
+    "languages": [
+      {
+        "id": "jinja-html",
+        "aliases": ["Jinja HTML Templates", "jinja-html"],
+        "extensions": [".jinja", ".jinja2"],
+        "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "jinja",
+        "aliases": ["jinja-raw"],
+        "extensions": []
+      }
+    ],
+    "grammars": [
+      {
+        "language": "jinja-html",
+        "scopeName": "text.html.jinja",
+        "path": "./syntaxes/html-jinja.tmLanguage"
+      },
+      {
+        "language": "jinja",
+        "scopeName": "source.jinja",
+        "path": "./syntaxes/jinja.tmLanguage"
+      }
+    ]
   }
 }
