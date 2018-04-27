@@ -2,7 +2,7 @@
   "name": "jinjahtml",
   "displayName": "Jinja HTML Highlighting",
   "description": "Syntax highlighting for jinja(2) html templates",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "publisher": "samuelcolvin",
   "author": "Samuel Colvin",
   "engines": {
