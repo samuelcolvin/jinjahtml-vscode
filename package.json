@@ -1,7 +1,7 @@
 {
   "name": "jinjahtml",
   "displayName": "Better Jinja",
-  "description": "Syntax highlighting for jinja(2) including HTML templates",
+  "description": "Syntax highlighting for jinja(2) including HTML and YAML templates",
   "version": "0.3.0",
   "publisher": "samuelcolvin",
   "author": "Samuel Colvin",
@@ -14,7 +14,10 @@
   "keywords": [
     "jinja",
     "jinja2",
-    "django"
+    "django",
+    "yaml",
+    "yml",
+    "sls"
   ],
   "repository": {
     "type": "git",

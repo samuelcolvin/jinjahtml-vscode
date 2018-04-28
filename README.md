@@ -1,6 +1,8 @@
 # Jinja Template Highlighting
 
-Syntax highlighting for jinja(2) html templates.
+Syntax highlighting for jinja(2) including HTML and YAML templates.
+
+![IDE](https://raw.githubusercontent.com/samuelcolvin/jinjahtml-vscode/master/screenshot.png)
 
 Introduces syntax highlighting into vscode for three languages:
 
