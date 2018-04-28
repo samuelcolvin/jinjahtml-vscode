@@ -1,0 +1,15 @@
+{
+  "name": "jinja-yaml",
+  "scopeName": "text.yaml.jinja",
+  "comment": "Jinja YAML Templates",
+  "fileTypes": ["sls"],
+  "firstLineMatch": "^{% extends [\"'][^\"']+[\"'] %}",
+  "patterns": [
+    {
+      "include": "source.jinja"
+    },
+    {
+      "include": "source.yaml"
+    }
+  ]
+}

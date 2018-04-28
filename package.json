@@ -25,7 +25,13 @@
       {
         "id": "jinja-html",
         "aliases": ["Jinja HTML", "jinja-html"],
-        "extensions": [".jinja", ".jinja2", ".j2"],
+        "extensions": [".jinja", ".jinja2", ".j2", ".html.j2"],
+        "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "jinja-yaml",
+        "aliases": ["Jinja YAML", "jinja-yaml"],
+        "extensions": [".sls", ".yml.j2", ".yaml.j2"],
         "configuration": "./language-configuration.json"
       },
       {
@@ -39,6 +45,11 @@
         "language": "jinja-html",
         "scopeName": "text.html.jinja",
         "path": "./syntaxes/jinja-html.json"
+      },
+      {
+        "language": "jinja-yaml",
+        "scopeName": "text.yaml.jinja",
+        "path": "./syntaxes/jinja-yaml.json"
       },
       {
         "language": "jinja",
