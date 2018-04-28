@@ -1,7 +1,7 @@
 {
   "name": "jinjahtml",
   "displayName": "Better Jinja",
-  "description": "Syntax highlighting for jinja(2) including HTML and YAML templates",
+  "description": "Syntax highlighting for jinja(2) including HTML, Markdown and YAML templates",
   "version": "0.3.0",
   "publisher": "samuelcolvin",
   "author": "Samuel Colvin",
@@ -15,6 +15,8 @@
     "jinja",
     "jinja2",
     "django",
+    "md",
+    "markdown",
     "yaml",
     "yml",
     "sls"
@@ -32,32 +34,44 @@
         "configuration": "./language-configuration.json"
       },
       {
+        "id": "jinja-md",
+        "aliases": ["Jinja Markdown", "jinja-md"],
+        "extensions": [".md.jinja", ".md.jinja2", ".md.j2"],
+        "configuration": "./language-configuration.json"
+      },
+      {
         "id": "jinja-yaml",
         "aliases": ["Jinja YAML", "jinja-yaml"],
-        "extensions": [".sls", ".yml.j2", ".yaml.j2"],
+        "extensions": [".yml.j2", ".yaml.j2", ".sls"],
         "configuration": "./language-configuration.json"
       },
       {
         "id": "jinja",
         "aliases": ["Jinja Raw", "jinja-raw"],
-        "extensions": []
+        "extensions": [],
+        "configuration": "./language-configuration.json"
       }
     ],
     "grammars": [
       {
         "language": "jinja-html",
         "scopeName": "text.html.jinja",
-        "path": "./syntaxes/jinja-html.json"
+        "path": "./syntaxes/jinja-html.tmLanguage.json"
+      },
+      {
+        "language": "jinja-md",
+        "scopeName": "text.md.jinja",
+        "path": "./syntaxes/jinja-md.tmLanguage.json"
       },
       {
         "language": "jinja-yaml",
         "scopeName": "text.yaml.jinja",
-        "path": "./syntaxes/jinja-yaml.json"
+        "path": "./syntaxes/jinja-yaml.tmLanguage.json"
       },
       {
         "language": "jinja",
         "scopeName": "source.jinja",
-        "path": "./syntaxes/jinja.json"
+        "path": "./syntaxes/jinja.tmLanguage.json"
       }
     ]
   }
