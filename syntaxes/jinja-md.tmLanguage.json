@@ -1,6 +1,6 @@
 {
     "name": "jinja-md",
-    "scopeName": "text.md.jinja",
+    "scopeName": "text.html.markdown.jinja",
     "comment": "Jinja Markdown Templates",
     "fileTypes": ["md.jinja", "md.jinja2", "md.j2"],
     "firstLineMatch": "^{% extends [\"'][^\"']+[\"'] %}",

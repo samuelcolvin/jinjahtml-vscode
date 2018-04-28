@@ -15,11 +15,8 @@
     "jinja",
     "jinja2",
     "django",
-    "md",
     "markdown",
-    "yaml",
-    "yml",
-    "sls"
+    "yaml"
   ],
   "repository": {
     "type": "git",
@@ -60,7 +57,7 @@
       },
       {
         "language": "jinja-md",
-        "scopeName": "text.md.jinja",
+        "scopeName": "text.html.markdown.jinja",
         "path": "./syntaxes/jinja-md.tmLanguage.json"
       },
       {
