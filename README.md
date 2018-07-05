@@ -18,7 +18,9 @@ The following file associations are setup by default:
 * **`jinja`**: none
 * **`jinja-html`**: `.jinja`, `.jinja2`, `.j2` and `.html.j2`
 * **`jinja-md`**: `.md.jinja`, `.md.jinja2` and `.md.j2`
+* **`jinja-rb`**: `.rb.j2`, `.rbw.j2`, `rb.jinja2` and `rbw.jinja2`
 * **`jinja-yaml`**: `.yml.j2`, `.yaml.j2` and `.sls`
+
 
 ## Extra File Associations
 

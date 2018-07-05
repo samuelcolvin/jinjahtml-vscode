@@ -1,8 +1,8 @@
 {
   "name": "jinjahtml",
   "displayName": "Better Jinja",
-  "description": "Syntax highlighting for jinja(2) including HTML, Markdown and YAML templates",
-  "version": "0.3.0",
+  "description": "Syntax highlighting for jinja(2) including HTML, Markdown, YAML and Ruby templates",
+  "version": "0.4.0",
   "publisher": "samuelcolvin",
   "author": "Samuel Colvin",
   "engines": {
@@ -37,6 +37,12 @@
         "configuration": "./language-configuration.json"
       },
       {
+        "id": "jinja-rb",
+        "aliases": ["Jinja Ruby", "jinja-rb"],
+        "extensions": ["rb.j2", "rbw.j2", "rb.jinja2", "rbw.jinja2"],
+        "configuration": "./language-configuration.json"
+      },
+      {
         "id": "jinja-yaml",
         "aliases": ["Jinja YAML", "jinja-yaml"],
         "extensions": [".yml.j2", ".yaml.j2", ".sls"],
@@ -59,6 +65,11 @@
         "language": "jinja-md",
         "scopeName": "text.html.markdown.jinja",
         "path": "./syntaxes/jinja-md.tmLanguage.json"
+      },
+      {
+        "language": "jinja-rb",
+        "scopeName": "text.ruby.jinja",
+        "path": "./syntaxes/jinja-ruby.tmLanguage.json"
       },
       {
         "language": "jinja-yaml",

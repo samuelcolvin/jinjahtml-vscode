@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.4.0] - 2018-07-05
+- add ruby support
+
 ## [0.3.0] - 2018-04-28
 - change display name
 - add markdown support
