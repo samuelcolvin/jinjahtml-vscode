@@ -32,3 +32,7 @@ in your user or workspace settings add:
     "*.html": "jinja-html"
 },
 ```
+
+## Snippet Support
+
+* **[Django](https://github.com/vscode-django/vscode-django)**

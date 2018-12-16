@@ -81,6 +81,13 @@
         "scopeName": "source.jinja",
         "path": "./syntaxes/jinja.tmLanguage.json"
       }
-    ]
+    ],
+    "snippets": [
+			{
+				"language": "jinja-html",
+				"scopeName": "text.html.jinja",
+				"path": "./snippets/django-snippets.json"
+			}
+		]
   }
 }
