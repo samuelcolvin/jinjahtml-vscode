@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.5.0] - 2018-12-18
+- add django snippets thanks @cryocaustik
+
 ## [0.4.0] - 2018-07-05
 - add ruby support
 
