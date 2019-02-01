@@ -27,7 +27,7 @@
       "name": "comment.block.jinja.raw"
     },
     {
-      "begin": "(\\(\\#-?",
+      "begin": "\\(\\(#-?",
       "captures": [
         {
           "name": "entity.other.jinja.delimiter.comment"
