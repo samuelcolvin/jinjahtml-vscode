@@ -1,93 +1,155 @@
 {
-  "name": "jinjahtml",
-  "displayName": "Better Jinja",
-  "description": "Syntax highlighting for jinja(2) including HTML, Markdown, YAML and Ruby templates",
-  "version": "0.5.0",
-  "publisher": "samuelcolvin",
-  "author": "Samuel Colvin",
-  "engines": {
-    "vscode": "^1.22.0"
-  },
-  "license": "MIT",
-  "icon": "icon.png",
-  "categories": ["Languages"],
-  "keywords": [
-    "jinja",
-    "jinja2",
-    "django",
-    "markdown",
-    "yaml"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/samuelcolvin/jinjahtml-vscode.git"
-  },
-  "contributes": {
-    "languages": [
-      {
-        "id": "jinja-html",
-        "aliases": ["Jinja HTML", "jinja-html"],
-        "extensions": [".jinja", ".jinja2", ".j2", ".html.j2"],
-        "configuration": "./language-configuration.json"
-      },
-      {
-        "id": "jinja-md",
-        "aliases": ["Jinja Markdown", "jinja-md"],
-        "extensions": [".md.jinja", ".md.jinja2", ".md.j2"],
-        "configuration": "./language-configuration.json"
-      },
-      {
-        "id": "jinja-rb",
-        "aliases": ["Jinja Ruby", "jinja-rb"],
-        "extensions": ["rb.j2", "rbw.j2", "rb.jinja2", "rbw.jinja2"],
-        "configuration": "./language-configuration.json"
-      },
-      {
-        "id": "jinja-yaml",
-        "aliases": ["Jinja YAML", "jinja-yaml"],
-        "extensions": [".yml.j2", ".yaml.j2", ".sls"],
-        "configuration": "./language-configuration.json"
-      },
-      {
-        "id": "jinja",
-        "aliases": ["Jinja Raw", "jinja-raw"],
-        "extensions": [],
-        "configuration": "./language-configuration.json"
-      }
-    ],
-    "grammars": [
-      {
-        "language": "jinja-html",
-        "scopeName": "text.html.jinja",
-        "path": "./syntaxes/jinja-html.tmLanguage.json"
-      },
-      {
-        "language": "jinja-md",
-        "scopeName": "text.html.markdown.jinja",
-        "path": "./syntaxes/jinja-md.tmLanguage.json"
-      },
-      {
-        "language": "jinja-rb",
-        "scopeName": "text.ruby.jinja",
-        "path": "./syntaxes/jinja-ruby.tmLanguage.json"
-      },
-      {
-        "language": "jinja-yaml",
-        "scopeName": "text.yaml.jinja",
-        "path": "./syntaxes/jinja-yaml.tmLanguage.json"
-      },
-      {
-        "language": "jinja",
-        "scopeName": "source.jinja",
-        "path": "./syntaxes/jinja.tmLanguage.json"
-      }
-    ],
-    "snippets": [
+	"name": "jinjahtml",
+	"displayName": "Better Jinja",
+	"description": "Syntax highlighting for jinja(2) including HTML, Markdown, YAML and Ruby templates",
+	"version": "0.6.0",
+	"publisher": "samuelcolvin",
+	"author": "Samuel Colvin",
+	"engines": {
+		"vscode": "^1.22.0"
+	},
+	"license": "MIT",
+	"icon": "icon.png",
+	"categories": [
+		"Languages"
+	],
+	"keywords": [
+		"jinja",
+		"jinja2",
+		"django",
+		"markdown",
+		"yaml"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/samuelcolvin/jinjahtml-vscode.git"
+	},
+	"contributes": {
+		"languages": [
+			{
+				"id": "jinja-html",
+				"aliases": [
+					"Jinja HTML",
+					"jinja-html"
+				],
+				"extensions": [
+					".jinja",
+					".jinja2",
+					".j2",
+					".html.j2"
+				],
+				"configuration": "./language-configuration.json"
+			},
+			{
+				"id": "jinja-md",
+				"aliases": [
+					"Jinja Markdown",
+					"jinja-md"
+				],
+				"extensions": [
+					".md.jinja",
+					".md.jinja2",
+					".md.j2"
+				],
+				"configuration": "./language-configuration.json"
+			},
+			{
+				"id": "jinja-rb",
+				"aliases": [
+					"Jinja Ruby",
+					"jinja-rb"
+				],
+				"extensions": [
+					"rb.j2",
+					"rbw.j2",
+					"rb.jinja2",
+					"rbw.jinja2"
+				],
+				"configuration": "./language-configuration.json"
+			},
+			{
+				"id": "jinja-yaml",
+				"aliases": [
+					"Jinja YAML",
+					"jinja-yaml"
+				],
+				"extensions": [
+					".yml.j2",
+					".yaml.j2",
+					".sls"
+				],
+				"configuration": "./language-configuration.json"
+			},
+			{
+				"id": "jinja-latex",
+				"aliases": [
+					"Jinja LaTeX",
+					"jinja-latex"
+				],
+				"extensions": [
+					".latex.j2",
+					".tex.j2",
+					".latex.jinja2",
+					".tex.jinja2"
+				],
+				"configuration": "./language-configuration-latex.json"
+			},
+			{
+				"id": "jinja",
+				"aliases": [
+					"Jinja Raw",
+					"jinja-raw"
+				],
+				"extensions": [],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "jinja-html",
+				"scopeName": "text.html.jinja",
+				"path": "./syntaxes/jinja-html.tmLanguage.json"
+			},
+			{
+				"language": "jinja-md",
+				"scopeName": "text.html.markdown.jinja",
+				"path": "./syntaxes/jinja-md.tmLanguage.json"
+			},
+			{
+				"language": "jinja-rb",
+				"scopeName": "text.ruby.jinja",
+				"path": "./syntaxes/jinja-ruby.tmLanguage.json"
+			},
+			{
+				"language": "jinja-yaml",
+				"scopeName": "text.yaml.jinja",
+				"path": "./syntaxes/jinja-yaml.tmLanguage.json"
+			},
+			{
+				"language": "jinja-latex",
+				"scopeName": "text.latex.jinja",
+				"path": "./syntaxes/jinja-latex.tmLanguage.json"
+			},
+			{
+				"language": "jinja",
+				"scopeName": "source.jinja",
+				"path": "./syntaxes/jinja.tmLanguage.json"
+			}
+		],
+		"snippets": [
 			{
 				"language": "jinja-html",
 				"scopeName": "text.html.jinja",
 				"path": "./snippets/django-snippets.json"
 			}
 		]
-  }
+	},
+	"dependencies": {
+		"vsce": "^1.53.2"
+	},
+	"__metadata": {
+		"id": "8b477a76-974c-403d-a454-58028c1709d1",
+		"publisherId": "d7c2b9b7-2569-4058-af25-ddbb0905ca89",
+		"publisherDisplayName": "Samuel Colvin"
+	}
 }
