@@ -27,13 +27,13 @@
       "name": "comment.block.jinja.raw"
     },
     {
-      "begin": "{#-?",
+      "begin": "(\\(\\#-?",
       "captures": [
         {
           "name": "entity.other.jinja.delimiter.comment"
         }
       ],
-      "end": "-?#}",
+      "end": "-?#\\)\\)",
       "name": "comment.block.jinja"
     },
     {
