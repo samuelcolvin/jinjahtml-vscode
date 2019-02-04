@@ -25,82 +25,82 @@
   },
   "contributes": {
     "languages": [
-    {
-      "id": "jinja-html",
-      "aliases": ["Jinja HTML", "jinja-html"],
-      "extensions": [".jinja", ".jinja2", ".j2", ".html.j2"],
-      "configuration": "./language-configuration.json"
-    },
-    {
-      "id": "jinja-md",
-      "aliases": ["Jinja Markdown", "jinja-md"],
-      "extensions": [".md.jinja", ".md.jinja2", ".md.j2"],
-      "configuration": "./language-configuration.json"
-    },
-    {
-      "id": "jinja-rb",
-      "aliases": ["Jinja Ruby", "jinja-rb"],
-      "extensions": ["rb.j2", "rbw.j2", "rb.jinja2", "rbw.jinja2"],
-      "configuration": "./language-configuration.json"
-    },
-    {
-      "id": "jinja-yaml",
-      "aliases": ["Jinja YAML", "jinja-yaml"],
-      "extensions": [".yml.j2", ".yaml.j2", ".sls"],
-      "configuration": "./language-configuration.json"
-    },
-    {
-      "id": "jinja-latex",
-      "aliases": ["Jinja LaTeX", "jinja-latex"],
-      "extensions": [".latex.j2", ".tex.j2", ".latex.jinja2", ".tex.jinja2"],
-      "configuration": "./language-configuration-latex.json"
-    },
-    {
-      "id": "jinja",
-      "aliases": ["Jinja Raw", "jinja-raw"],
-      "extensions": [],
-      "configuration": "./language-configuration.json"
-    }
+      {
+        "id": "jinja-html",
+        "aliases": ["Jinja HTML", "jinja-html"],
+        "extensions": [".jinja", ".jinja2", ".j2", ".html.j2"],
+        "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "jinja-md",
+        "aliases": ["Jinja Markdown", "jinja-md"],
+        "extensions": [".md.jinja", ".md.jinja2", ".md.j2"],
+        "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "jinja-rb",
+        "aliases": ["Jinja Ruby", "jinja-rb"],
+        "extensions": ["rb.j2", "rbw.j2", "rb.jinja2", "rbw.jinja2"],
+        "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "jinja-yaml",
+        "aliases": ["Jinja YAML", "jinja-yaml"],
+        "extensions": [".yml.j2", ".yaml.j2", ".sls"],
+        "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "jinja-latex",
+        "aliases": ["Jinja LaTeX", "jinja-latex"],
+        "extensions": [".latex.j2", ".tex.j2", ".latex.jinja2", ".tex.jinja2"],
+        "configuration": "./language-configuration-latex.json"
+      },
+      {
+        "id": "jinja",
+        "aliases": ["Jinja Raw", "jinja-raw"],
+        "extensions": [],
+        "configuration": "./language-configuration.json"
+      }
     ],
     "grammars": [
-    {
-      "language": "jinja-html",
-      "scopeName": "text.html.jinja",
-      "path": "./syntaxes/jinja-html.tmLanguage.json"
-    },
-    {
-      "language": "jinja-md",
-      "scopeName": "text.html.markdown.jinja",
-      "path": "./syntaxes/jinja-md.tmLanguage.json"
-    },
-    {
-      "language": "jinja-rb",
-      "scopeName": "text.ruby.jinja",
-      "path": "./syntaxes/jinja-ruby.tmLanguage.json"
-    },
-    {
-      "language": "jinja-yaml",
-      "scopeName": "text.yaml.jinja",
-      "path": "./syntaxes/jinja-yaml.tmLanguage.json"
-    },
-    {
-      "language": "jinja-latex",
-      "scopeName": "text.latex.jinja",
-      "path": "./syntaxes/jinja-latex.tmLanguage.json"
-    },
-    {
-      "language": "jinja",
-      "scopeName": "source.jinja",
-      "path": "./syntaxes/jinja.tmLanguage.json"
-    }
+      {
+        "language": "jinja-html",
+        "scopeName": "text.html.jinja",
+        "path": "./syntaxes/jinja-html.tmLanguage.json"
+      },
+      {
+        "language": "jinja-md",
+        "scopeName": "text.html.markdown.jinja",
+        "path": "./syntaxes/jinja-md.tmLanguage.json"
+      },
+      {
+        "language": "jinja-rb",
+        "scopeName": "text.ruby.jinja",
+        "path": "./syntaxes/jinja-ruby.tmLanguage.json"
+      },
+      {
+        "language": "jinja-yaml",
+        "scopeName": "text.yaml.jinja",
+        "path": "./syntaxes/jinja-yaml.tmLanguage.json"
+      },
+      {
+        "language": "jinja-latex",
+        "scopeName": "text.latex.jinja",
+        "path": "./syntaxes/jinja-latex.tmLanguage.json"
+      },
+      {
+        "language": "jinja",
+        "scopeName": "source.jinja",
+        "path": "./syntaxes/jinja.tmLanguage.json"
+      }
     ],
     "snippets": [
-        {
-          "language": "jinja-html",
-          "scopeName": "text.html.jinja",
-          "path": "./snippets/django-snippets.json"
-        }
-      ]
+                      {
+                        "language": "jinja-html",
+                        "scopeName": "text.html.jinja",
+                        "path": "./snippets/django-snippets.json"
+                      }
+                    ]
   }
 }
   
