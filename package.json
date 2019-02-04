@@ -96,11 +96,10 @@
     ],
     "snippets": [
                       {
-                        "language": "jinja-html",
-                        "scopeName": "text.html.jinja",
-                        "path": "./snippets/django-snippets.json"
+				                    "language": "jinja-html",
+                            "scopeName": "text.html.jinja",
+                            "path": "./snippets/django-snippets.json"
                       }
-                    ]
+                ]
   }
 }
-  
