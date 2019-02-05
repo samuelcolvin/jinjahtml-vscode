@@ -17,7 +17,6 @@
     "django",
     "markdown",
     "yaml"
-    "latex"
   ],
   "repository": {
     "type": "git",
