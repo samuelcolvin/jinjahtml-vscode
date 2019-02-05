@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.6.0] - 2019-02-04
+- add latex support thanks @chrisjsewell
+
 ## [0.5.0] - 2018-12-18
 - add django snippets thanks @cryocaustik
 
