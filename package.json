@@ -16,7 +16,7 @@
     "jinja2",
     "django",
     "markdown",
-    "yaml",
+    "yaml"
     "latex"
   ],
   "repository": {
