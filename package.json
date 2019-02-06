@@ -2,7 +2,7 @@
   "name": "jinjahtml",
   "displayName": "Better Jinja",
   "description": "Syntax highlighting for jinja(2) including HTML, Markdown, YAML, Ruby and LaTeX templates",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "publisher": "samuelcolvin",
   "author": "Samuel Colvin",
   "engines": {
@@ -55,6 +55,23 @@
         "configuration": "./language-configuration-latex.json"
       },
       {
+        "id": "jinja-properties",
+        "aliases": ["Jinja Properties/ini/Conf", "jinja-properties", "jinja-ini", "jinja-conf"],
+        "extensions": [".properties.j2", ".cfg.j2", ".conf.j2", ".desktop.j2", ".directory.j2", ".ini.j2"],
+        "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "jinja-shell",
+        "aliases": ["Jinja Shell Script", "jinja-shellscript", "jinja-shell", "jinja-sh", "jinja-bash"],
+        "extensions": [
+          ".sh.j2", ".bash.j2", ".bashrc.j2", ".bash_aliases.j2", ".bash_profile.j2", ".bash_login.j2", ".ebuild.j2",
+          ".install.j2", ".profile.j2", ".bash_logout.j2", ".zsh.j2", ".zshrc.j2", ".zprofile.j2", ".zlogin.j2",
+          ".zlogout.j2", ".zshenv.j2", ".zsh-theme.j2", ".ksh.j2"
+        ],
+        "configuration": "./language-configuration.json"
+      },
+
+      {
         "id": "jinja",
         "aliases": ["Jinja Raw", "jinja-raw"],
         "extensions": [],
@@ -86,6 +103,16 @@
         "language": "jinja-latex",
         "scopeName": "text.latex.jinja",
         "path": "./syntaxes/jinja-latex.tmLanguage.json"
+      },
+      {
+        "language": "jinja-properties",
+        "scopeName": "source.ini.jinja",
+        "path": "./syntaxes/jinja-properties.tmLanguage.json"
+      },
+      {
+        "language": "jinja-shell",
+        "scopeName": "source.shell.jinja",
+        "path": "./syntaxes/jinja-shell.tmLanguage.json"
       },
       {
         "language": "jinja",
