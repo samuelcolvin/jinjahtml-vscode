@@ -41,3 +41,8 @@ in your user or workspace settings add:
 ## Note on LaTeX Templates
 
 Jinja blocks use `{% %}` by default which does not play nicely with LaTeX, so those are replaced by `((* *))` in LaTeX templates.
+
+
+      // scope name properties language is source.ini,
+      // only difference between the two is more comment formats in ini files, see:
+      // https://github.com/Microsoft/vscode/blob/9175a0612c3c183c06988e197d4639d4b5b0742d/extensions/ini/package.json#L31

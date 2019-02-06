@@ -1,0 +1,15 @@
+{
+  "name": "jinja-properties",
+  "scopeName": "source.ini.jinja",
+  "comment": "Jinja properties/properties/conf Templates",
+  "fileTypes": [".properties.j2", ".cfg.j2", ".conf.j2", ".desktop.j2", ".directory.j2"],
+  "firstLineMatch": "^{% extends [\"'][^\"']+[\"'] %}",
+  "patterns": [
+    {
+      "include": "source.jinja"
+    },
+    {
+      "include": "source.ini"
+    }
+  ]
+}
