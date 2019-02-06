@@ -10,7 +10,7 @@
   },
   "license": "MIT",
   "icon": "icon.png",
-  "categories": ["Languages"],
+  "categories": ["Programming Languages"],
   "keywords": [
     "jinja",
     "jinja2",
