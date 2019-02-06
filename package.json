@@ -57,7 +57,7 @@
       {
         "id": "jinja-properties",
         "aliases": ["Jinja Properties/ini/Conf", "jinja-properties"],
-        "extensions": [".properties.j2", ".cfg.j2", ".conf.j2", ".desktop.j2", ".directory.j2"],
+        "extensions": [".properties.j2", ".cfg.j2", ".conf.j2", ".desktop.j2", ".directory.j2", ".ini.j2"],
         "configuration": "./language-configuration.json"
       },
       {
