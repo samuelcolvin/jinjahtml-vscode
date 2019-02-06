@@ -3,3 +3,4 @@
 .gitignore
 vsc-extension-quickstart.md
 examples/**
+deploy.md
