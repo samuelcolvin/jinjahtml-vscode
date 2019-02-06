@@ -8,6 +8,16 @@
   "engines": {
     "vscode": "^1.22.0"
   },
+  "scripts": {
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "node ./node_modules/vscode/bin/test"
+  },
+  "devDependencies": {
+    "vscode": "^1.1.28",
+    "eslint": "^5.13.0",
+    "@types/node": "^8.10.25",
+    "@types/mocha": "^2.2.42"
+  },
   "license": "MIT",
   "icon": "icon.png",
   "categories": ["Programming Languages"],
@@ -121,11 +131,11 @@
       }
     ],
     "snippets": [
-			{
-				"language": "jinja-html",
-				"scopeName": "text.html.jinja",
-				"path": "./snippets/django-snippets.json"
-			}
-		]
+      {
+        "language": "jinja-html",
+        "scopeName": "text.html.jinja",
+        "path": "./snippets/django-snippets.json"
+      }
+    ]
   }
 }
