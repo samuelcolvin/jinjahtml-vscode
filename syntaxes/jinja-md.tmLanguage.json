@@ -2,7 +2,6 @@
     "name": "jinja-md",
     "scopeName": "text.html.markdown.jinja",
     "comment": "Jinja Markdown Templates",
-    "fileTypes": ["md.jinja", "md.jinja2", "md.j2"],
     "firstLineMatch": "^{% extends [\"'][^\"']+[\"'] %}",
     "foldingStartMarker": "(<(?i:(head|table|tr|div|style|script|ul|ol|form|dl))\\b.*?>|{%\\s*(block|filter|for|if|macro|raw))",
     "foldingStopMarker": "(<\/(?i:(head|table|tr|div|style|script|ul|ol|form|dl))\\b.*?>|{%\\s*(endblock|endfilter|endfor|endif|endmacro|endraw)\\s*%})",

@@ -2,7 +2,6 @@
   "name": "jinja-ruby",
   "scopeName": "text.ruby.jinja",
   "comment": "Jinja Ruby Templates",
-  "fileTypes": ["rb.j2", "rbw.j2", "rb.jinja2", "rbw.jinja2"],
   "firstLineMatch": "^{% extends [\"'][^\"']+[\"'] %}",
   "patterns": [
     {

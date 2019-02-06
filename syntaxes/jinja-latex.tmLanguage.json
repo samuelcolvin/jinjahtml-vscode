@@ -2,7 +2,6 @@
   "name": "jinja-latex",
   "scopeName": "text.latex.jinja",
   "comment": "Jinja Latex Templates",
-  "fileTypes": ["latex.jinja", "latex.jinja2", "latex.j2"],
   "firstLineMatch": "^(\\(\\(\\* extends [\"'][^\"']+[\"'] \\*\\)\\)",
   "foldingStartMarker": "(\\(\\(\\*\\s*(block|filter|for|if|macro|raw))",
   "foldingStopMarker": "(\\(\\(\\*\\s*(endblock|endfilter|endfor|endif|endmacro|endraw)\\s*\\*\\)\\))",

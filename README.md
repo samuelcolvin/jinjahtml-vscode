@@ -47,7 +47,7 @@ aka config / cfg / ini file: system name `jinja-properties`.
 
 Default file assocations: `.properties.j2`, `.cfg.j2`, `.conf.j2`, `.desktop.j2`, `.directory.j2` and `.ini.j2`.
 
-### Jinja Shell Script
+### Jinja Shell Scripts
 
 Jinja shell/bash/zsh templates: system name `jinja-shell`.
 
@@ -56,6 +56,13 @@ Default file assocations (same as for the `shell` language with `.j2` appended):
 `.bash_login.j2`, `.ebuild.j2`, `.install.j2`, `.profile.j2`, `.bash_logout.j2`, `.zsh.j2`, `.zshrc.j2`,
 `.zprofile.j2`, `.zlogin.j2`, `.zlogout.j2`, `.zshenv.j2`, `.zsh-theme.j2` and `.ksh.j2`.
 
+### Dockerfiles
+
+Dockerfile templates: system name `jinja-dockerfile`.
+
+Default file assocations: `.dockerfile.j2`, `.dockerfile.jinja` and `.dockerfile.jinja2`.
+
+Unfortunately associating `jinja-dockerfile` with file names like `Dockerfile.j2` doesn't seem to work.
 
 ## Extra File Associations
 
