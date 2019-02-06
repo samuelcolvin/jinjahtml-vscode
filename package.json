@@ -70,7 +70,13 @@
         ],
         "configuration": "./language-configuration.json"
       },
-
+      {
+        "id": "jinja-dockerfile",
+        "aliases": ["Jinja Dockerfile", "jinja-dockerfile"],
+        "extensions": [".dockerfile.j2", ".dockerfile.jinja", ".dockerfile.jinja2"],
+        "filenames": ["Dockerfile.j2", "Dockerfile.jinja", "Dockerfile.jinja2"],
+        "configuration": "./language-configuration.json"
+      },
       {
         "id": "jinja",
         "aliases": ["Jinja Raw", "jinja-raw"],
@@ -113,6 +119,11 @@
         "language": "jinja-shell",
         "scopeName": "source.shell.jinja",
         "path": "./syntaxes/jinja-shell.tmLanguage.json"
+      },
+      {
+        "language": "jinja-dockerfile",
+        "scopeName": "source.dockerfile.jinja",
+        "path": "./syntaxes/jinja-dockerfile.tmLanguage.json"
       },
       {
         "language": "jinja",

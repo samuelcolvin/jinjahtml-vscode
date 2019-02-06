@@ -1,0 +1,13 @@
+{
+  "name": "jinja-dockerfile",
+  "scopeName": "source.dockerfile.jinja",
+  "comment": "Jinja Dockerfile Templates",
+  "patterns": [
+    {
+      "include": "source.jinja"
+    },
+    {
+      "include": "source.dockerfile"
+    }
+  ]
+}

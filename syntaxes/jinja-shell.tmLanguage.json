@@ -2,11 +2,6 @@
   "name": "jinja-shell",
   "scopeName": "source.shell.jinja",
   "comment": "Jinja Shell Templates",
-  "fileTypes": [
-    "sh.j2", "bash.j2", "bashrc.j2", "bash_aliases.j2", "bash_profile.j2", "bash_login.j2", "ebuild.j2", "install.j2",
-    "profile.j2", "bash_logout.j2", "zsh.j2", "zshrc.j2", "zprofile.j2", "zlogin.j2", "zlogout.j2", "zshenv.j2",
-    "zsh-theme.j2", "ksh.j2"
-  ],
   "patterns": [
     {
       "include": "source.jinja"
