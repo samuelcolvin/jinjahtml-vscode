@@ -2,6 +2,7 @@
 
 ## [0.7.0] - 2019-02-06
 - add properties/ini/conf file support, by @samuelcolvincin
+- add shell/bash file support, by @samuelcolvincin
 
 ## [0.6.0] - 2019-02-05
 - add latex support thanks @chrisjsewell
