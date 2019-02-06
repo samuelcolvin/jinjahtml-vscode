@@ -1,0 +1,27 @@
+{% extends 'whatever.jinja' %}
+<!doctype html>
+<html amp lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <title>Hello, AMPs</title>
+    <link rel="canonical" href="http://example.ampproject.org/article-metadata.html">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>{{ inline_css('amp-boilerplate.css') }}</style>
+    <noscript>
+      <style amp-boilerplate>body {-webkit-animation: none;-moz-animation: none; -ms-animation: none; animation: none}</style>
+    </noscript>
+    <style amp-custom>{{ inline_css('inline.css') }}</style>
+    <foobar>{{ (4 * 7)|int }}</foobar>
+  </head>
+
+  <body>
+  {% if foo == bar %}
+    {% block body %}{% endblock %}
+    {% for x in foobar %}
+     {{ for}}
+    {% endfor %}
+
+    {{ inline_css('inline.css') }}
+  </body>
+</html>

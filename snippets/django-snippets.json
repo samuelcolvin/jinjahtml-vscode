@@ -77,7 +77,7 @@
     "prefix": "lipsum",
     "description": "Generates some lorem ipsum for the template",
     "body": [
-      "{{ lipsum(${how_many_paragraphs}) }}"
+      "{{ lipsum(${1:how_many_paragraphs}) }}"
     ]
   },
   "Super": {
@@ -100,15 +100,15 @@
     "prefix": "url",
     "description": "URL tag",
     "body": [
-      "{{ url('${some-url-name}', ${arg}) }}"
+      "{{ url('${1:some-url-name}', ${2:arg}) }}"
     ]
   },
   "With": {
     "prefix": "with",
     "description": "With block",
     "body": [
-      "{% with ${local_var}=${context_var} %}",
-      "$1",
+      "{% with ${1:local_var}=${2:context_var} %}",
+      "$3",
       "{% endwith %}"
     ]
   },
