@@ -1,9 +1,11 @@
 FROM python:3.6
 
+{% if setup %}
 RUN pip install aiohttp==2.1.0
 ADD ./pydf /pydf
 ADD setup.py /
 RUN pip install -e .
+{% endif %}
 
 {{ example_of_var }}
 

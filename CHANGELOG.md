@@ -4,6 +4,7 @@
 - add properties/ini/conf file support, by @samuelcolvin #16
 - add shell/bash file support, by @samuelcolvin #16
 - fix snippet warnings, by @samuelcolvin #17
+- add Dockerfile support, by @samuelcolvin # 18
 
 ## [0.6.0] - 2019-02-05
 - add latex support thanks @chrisjsewell
