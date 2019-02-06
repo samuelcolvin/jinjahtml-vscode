@@ -1,4 +1,4 @@
 node_modules
 *.vsix
 vsc-extension-quickstart.md
-testing.*
+/.idea/
