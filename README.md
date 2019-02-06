@@ -15,9 +15,14 @@ Introduces syntax highlighting into vscode for the following languages:
 * **Jinja YAML** jinja YAML (sls) templates, system name `jinja-yaml`,
   default file assocations: `.yml.j2`, `.yaml.j2` and `.sls`
 * **Jinja LaTeX** jinja latex templates, system name `jinja-latex`,
-  default file assocations: `.latex.j2`, `.tex.j2`, `latex.jinja2` and `tex.jinja2`
+  default file assocations: `.latex.j2`, `.tex.j2`, `.latex.jinja2` and `.tex.jinja2`
 * **Jinja Properties** aka config/ini file, system name `jinja-properties`,
   default file assocations: `.properties.j2`, `.cfg.j2`, `.conf.j2`, `.desktop.j2`, `.directory.j2` and `.ini.j2`
+* **Jinja Shell Script** jinja shell/bash templates, system name `jinja-shell`,
+  default file assocations: `.sh.j2`, `.bash.j2`, `.bashrc.j2`, `.bash_aliases.j2`, `.bash_profile.j2`,
+  `.bash_login.j2`, `.ebuild.j2`, `.install.j2`, `.profile.j2`, `.bash_logout.j2`, `.zsh.j2`, `.zshrc.j2`,
+  `.zprofile.j2`, `.zlogin.j2`, `.zlogout.j2`, `.zshenv.j2`, `.zsh-theme.j2` and `.ksh.j2`
+  (same as for the `shell` language with `.j2` added)
 
 ## Extra File Associations
 

@@ -56,10 +56,21 @@
       },
       {
         "id": "jinja-properties",
-        "aliases": ["Jinja Properties/ini/Conf", "jinja-properties"],
+        "aliases": ["Jinja Properties/ini/Conf", "jinja-properties", "jinja-ini", "jinja-conf"],
         "extensions": [".properties.j2", ".cfg.j2", ".conf.j2", ".desktop.j2", ".directory.j2", ".ini.j2"],
         "configuration": "./language-configuration.json"
       },
+      {
+        "id": "jinja-shell",
+        "aliases": ["Jinja Shell Script", "jinja-shellscript", "jinja-shell", "jinja-sh", "jinja-bash"],
+        "extensions": [
+          ".sh.j2", ".bash.j2", ".bashrc.j2", ".bash_aliases.j2", ".bash_profile.j2", ".bash_login.j2", ".ebuild.j2",
+          ".install.j2", ".profile.j2", ".bash_logout.j2", ".zsh.j2", ".zshrc.j2", ".zprofile.j2", ".zlogin.j2",
+          ".zlogout.j2", ".zshenv.j2", ".zsh-theme.j2", ".ksh.j2"
+        ],
+        "configuration": "./language-configuration.json"
+      },
+
       {
         "id": "jinja",
         "aliases": ["Jinja Raw", "jinja-raw"],
@@ -97,6 +108,11 @@
         "language": "jinja-properties",
         "scopeName": "source.ini.jinja",
         "path": "./syntaxes/jinja-properties.tmLanguage.json"
+      },
+      {
+        "language": "jinja-shell",
+        "scopeName": "source.shell.jinja",
+        "path": "./syntaxes/jinja-shell.tmLanguage.json"
       },
       {
         "language": "jinja",
