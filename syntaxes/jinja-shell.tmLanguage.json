@@ -7,7 +7,6 @@
     "profile.j2", "bash_logout.j2", "zsh.j2", "zshrc.j2", "zprofile.j2", "zlogin.j2", "zlogout.j2", "zshenv.j2",
     "zsh-theme.j2", "ksh.j2"
   ],
-  "firstLineMatch": "^{% extends [\"'][^\"']+[\"'] %}",
   "patterns": [
     {
       "include": "source.jinja"
