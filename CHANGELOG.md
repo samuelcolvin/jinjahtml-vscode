@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.8.0] - 2019-02-15
+- add sql support, by @Nilesh3105 #20
+
 ## [0.7.0] - 2019-02-06
 - add properties/ini/conf file support, by @samuelcolvin #16
 - add shell/bash file support, by @samuelcolvin #16
