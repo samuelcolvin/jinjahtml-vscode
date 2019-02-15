@@ -1,0 +1,3 @@
+SELECT *
+FROM {{ table_name }}
+{% if var %} WHERE col_name = 'some_val' {% endif %}

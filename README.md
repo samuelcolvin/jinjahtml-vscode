@@ -64,6 +64,12 @@ Default file assocations: `.dockerfile.j2`, `.dockerfile.jinja` and `.dockerfile
 
 Unfortunately associating `jinja-dockerfile` with file names like `Dockerfile.j2` doesn't seem to work.
 
+### Jinja SQL
+
+Jinja SQL templates: system name `jinja-sql`.
+
+Default file assocations: `.sql.j2`, `.sql.jinja` and `.sql.jinja2`.
+
 ## Extra File Associations
 
 You can add more file associations, for example to associate `.html` files with `jinja-html`;

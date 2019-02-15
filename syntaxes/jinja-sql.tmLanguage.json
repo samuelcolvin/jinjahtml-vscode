@@ -1,0 +1,13 @@
+{
+  "name": "jinja-sql",
+  "scopeName": "source.sql.jinja",
+  "comment": "Jinja SQL Templates",
+  "patterns": [
+    {
+      "include": "source.jinja"
+    },
+    {
+      "include": "source.sql"
+    }
+  ]
+}
