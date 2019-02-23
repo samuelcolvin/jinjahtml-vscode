@@ -1,0 +1,13 @@
+{
+    "name": "jinja-python",
+    "scopeName": "text.python.jinja",
+    "comment": "Jinja Python Templates",
+    "patterns": [
+      {
+        "include": "source.jinja"
+      },
+      {
+        "include": "source.python"
+      }
+    ]
+  }
