@@ -1,0 +1,10 @@
+class Immutable{{ name[0]|upper }}{{ name[1:] }} {
+    constructor({{ properties|join(", ") }}) {
+        {% for prop in properties -%}
+        Object.defineProperty(this, "{{ prop }}", {
+            "value": {{ prop }},
+            "writable": false,
+        });
+        {%- endfor %}
+    }
+}

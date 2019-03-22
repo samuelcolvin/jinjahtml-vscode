@@ -1,0 +1,13 @@
+{
+  "name": "jinja-js",
+  "scopeName": "source.js.jinja",
+  "comment": "Jinja JavaScript Templates",
+  "patterns": [
+    {
+      "include": "source.jinja"
+    },
+    {
+      "include": "source.js"
+    }
+  ]
+}
