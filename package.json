@@ -43,6 +43,12 @@
         "configuration": "./language-configuration.json"
       },
       {
+        "id": "jinja-js",
+        "aliases": ["Jinja JavaScript", "Jinja JS", "jinja-js"],
+        "extensions": ["js.j2", "js.jinja2"],
+        "configuration": "./language-configuration.json"
+      },
+      {
         "id": "jinja-yaml",
         "aliases": ["Jinja YAML", "jinja-yaml"],
         "extensions": [".yml.j2", ".yaml.j2", ".sls"],
@@ -105,6 +111,11 @@
         "language": "jinja-rb",
         "scopeName": "text.ruby.jinja",
         "path": "./syntaxes/jinja-ruby.tmLanguage.json"
+      },
+      {
+        "language": "jinja-js",
+        "scopeName": "source.js.jinja",
+        "path": "./syntaxes/jinja-js.tmLanguage.json"
       },
       {
         "language": "jinja-yaml",
