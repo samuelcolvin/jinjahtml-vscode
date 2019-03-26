@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.9.0] - 2019-03-26
+* add javascript support by @sapphire-janrain #22
+
 ## [0.8.0] - 2019-02-15
 - add sql support, by @Nilesh3105 #20
 
