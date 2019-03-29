@@ -1,6 +1,6 @@
 {
     "name": "jinja-python",
-    "scopeName": "text.python.jinja",
+    "scopeName": "source.python.jinja",
     "comment": "Jinja Python Templates",
     "patterns": [
       {
