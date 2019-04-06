@@ -39,7 +39,7 @@
       {
         "id": "jinja-py",
         "aliases": ["Jinja Python", "jinja-py"],
-        "extensions": ["py.j2", "py.jinja2"],
+        "extensions": ["py.j2", "py.jinja", "py.jinja2"],
         "configuration": "./language-configuration.json"
       },
       {

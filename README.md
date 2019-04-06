@@ -70,6 +70,12 @@ Jinja SQL templates: system name `jinja-sql`.
 
 Default file assocations: `.sql.j2`, `.sql.jinja` and `.sql.jinja2`.
 
+### Jinja Pyhton
+
+Jinja python templates: system name `jinja-py`.
+
+Default file assocations: `.py.j2`, `.py.jinja` and `.py.jinja2`.
+
 ## Extra File Associations
 
 You can add more file associations, for example to associate `.html` files with `jinja-html`;
