@@ -1,0 +1,10 @@
+from X import Y
+
+class Foo:
+    def bar(self, y: Y) -> None:
+        return {{ variable }}
+
+    {% for method in methods -%}
+    def {{ method.name }}(self):
+        return {{ method.return_value }}
+    {% endfor -%}

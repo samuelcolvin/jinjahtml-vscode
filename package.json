@@ -37,6 +37,12 @@
         "configuration": "./language-configuration.json"
       },
       {
+        "id": "jinja-py",
+        "aliases": ["Jinja Python", "jinja-py"],
+        "extensions": ["py.j2", "py.jinja2"],
+        "configuration": "./language-configuration.json"
+      },
+      {
         "id": "jinja-rb",
         "aliases": ["Jinja Ruby", "jinja-rb"],
         "extensions": ["rb.j2", "rbw.j2", "rb.jinja2", "rbw.jinja2"],
@@ -106,6 +112,11 @@
         "language": "jinja-md",
         "scopeName": "text.html.markdown.jinja",
         "path": "./syntaxes/jinja-md.tmLanguage.json"
+      },
+      {
+        "language": "jinja-py",
+        "scopeName": "text.python.jinja",
+        "path": "./syntaxes/jinja-python.tmLanguage.json"
       },
       {
         "language": "jinja-rb",
