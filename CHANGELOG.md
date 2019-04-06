@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.10.0] - 2019-04-06
+* add python support by @lukesneeringer #21
+
 ## [0.9.0] - 2019-03-26
 * add javascript support by @sapphire-janrain #22
 
