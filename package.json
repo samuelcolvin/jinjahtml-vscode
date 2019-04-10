@@ -100,6 +100,18 @@
         "aliases": ["Jinja Raw", "jinja-raw"],
         "extensions": [],
         "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "jinja-terraform",
+        "aliases": ["Jinja Terraform", "jinja-terraform"],
+        "extensions": [".tf.j2", ".tfvars.j2"],
+        "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "jinja-groovy",
+        "aliases": ["Jinja Groovy", "jinja-groovy"],
+        "extensions": [".groovy.j2"],
+        "configuration": "./language-configuration.json"
       }
     ],
     "grammars": [
@@ -162,6 +174,16 @@
         "language": "jinja",
         "scopeName": "source.jinja",
         "path": "./syntaxes/jinja.tmLanguage.json"
+      },
+      {
+        "language": "jinja-groovy",
+        "scopeName": "source.groovy.jinja",
+        "path": "./syntaxes/jinja-groovy.tmLanguage.json"
+      },
+      {
+        "language": "jinja-terraform",
+        "scopeName": "source.terraform.jinja",
+        "path": "./syntaxes/jinja-terraform.tmLanguage.json"
       }
     ],
     "snippets": [
