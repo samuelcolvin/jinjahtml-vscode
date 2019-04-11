@@ -1,0 +1,13 @@
+{
+  "name": "jinja-groovy",
+  "scopeName": "source.groovy.jinja",
+  "comment": "Jinja Groovy Templates",
+  "patterns": [
+    {
+      "include": "source.jinja"
+    },
+    {
+      "include": "source.groovy"
+    }
+  ]
+}

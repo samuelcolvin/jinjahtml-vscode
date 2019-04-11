@@ -70,11 +70,23 @@ Jinja SQL templates: system name `jinja-sql`.
 
 Default file assocations: `.sql.j2`, `.sql.jinja` and `.sql.jinja2`.
 
-### Jinja Pyhton
+### Jinja Python
 
 Jinja python templates: system name `jinja-py`.
 
 Default file assocations: `.py.j2`, `.py.jinja` and `.py.jinja2`.
+
+### Jinja Terraform
+
+Jinja Terraform templates: system name `jinja-terraform`.
+
+Default file assocations: `.tf.j2`, `.tf.jinja`, `.tf.jinja2`, `.tfvars.j2`, `.tfvars.jinja`, and `.tfvars.jinja2`.
+
+### Jinja Groovy
+
+Jinja Groovy templates: system name `jinja-groovy`.
+
+Default file assocations: `.groovy.j2`, `.groovy.jinja` and `.groovy.jinja2`.
 
 ## Extra File Associations
 

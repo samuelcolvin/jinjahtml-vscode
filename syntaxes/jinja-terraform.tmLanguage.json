@@ -1,0 +1,13 @@
+{
+  "name": "jinja-terraform",
+  "scopeName": "source.terraform.jinja",
+  "comment": "Jinja terraform Templates",
+  "patterns": [
+    {
+      "include": "source.jinja"
+    },
+    {
+      "include": "source.terraform"
+    }
+  ]
+}

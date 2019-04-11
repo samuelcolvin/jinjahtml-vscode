@@ -2,7 +2,7 @@
   "name": "jinjahtml",
   "displayName": "Better Jinja",
   "description": "Syntax highlighting for jinja(2) including HTML, Markdown, YAML, Ruby and LaTeX templates",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "publisher": "samuelcolvin",
   "author": "Samuel Colvin",
   "engines": {
@@ -100,6 +100,18 @@
         "aliases": ["Jinja Raw", "jinja-raw"],
         "extensions": [],
         "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "jinja-terraform",
+        "aliases": ["Jinja Terraform", "jinja-terraform"],
+        "extensions": [".tf.j2", ".tf.jinja", ".tf.jinja2", ".tfvars.j2", ".tfvars.jinja", ".tfvars.jinja2"],
+        "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "jinja-groovy",
+        "aliases": ["Jinja Groovy", "jinja-groovy"],
+        "extensions": [".groovy.j2", ".groovy.jinja", ".groovy.jinja2"],
+        "configuration": "./language-configuration.json"
       }
     ],
     "grammars": [
@@ -162,6 +174,16 @@
         "language": "jinja",
         "scopeName": "source.jinja",
         "path": "./syntaxes/jinja.tmLanguage.json"
+      },
+      {
+        "language": "jinja-groovy",
+        "scopeName": "source.groovy.jinja",
+        "path": "./syntaxes/jinja-groovy.tmLanguage.json"
+      },
+      {
+        "language": "jinja-terraform",
+        "scopeName": "source.terraform.jinja",
+        "path": "./syntaxes/jinja-terraform.tmLanguage.json"
       }
     ],
     "snippets": [
