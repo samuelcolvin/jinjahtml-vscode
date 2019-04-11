@@ -1,4 +1,6 @@
 # Change Log
+## [0.10.1] - 2019-11-06
+* add python support by @chrisweissnike
 
 ## [0.10.0] - 2019-04-06
 * add python support by @lukesneeringer #21
