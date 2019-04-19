@@ -1,5 +1,8 @@
 # Change Log
-## [0.10.1] - 2019-11-06
+## [0.10.2] - 2019-04-19
+* add css support by @gsemet
+
+## [0.10.1] - 2019-04-11
 * add groovy and terraform support by @chrisweissnike
 
 ## [0.10.0] - 2019-04-06
