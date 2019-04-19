@@ -20,6 +20,12 @@ Jinja HTML templates: system name `jinja-html`.
 
 Default file assocations: `.jinja`, `.jinja2`, `.j2` and `.html.j2`.
 
+### Jinja CSS
+
+Jinja HTML templates: system name `jinja-css`.
+
+Default file assocations: `.css.jinja`, `css.jinja2`, `.css.j2`.
+
 ### Jinja Markdown
 
 Jinja markdown templates: system name `jinja-md`.
