@@ -16,7 +16,9 @@
     "jinja2",
     "django",
     "markdown",
-    "yaml"
+    "yaml",
+    "python",
+    "css"
   ],
   "repository": {
     "type": "git",
@@ -28,6 +30,12 @@
         "id": "jinja-html",
         "aliases": ["Jinja HTML", "jinja-html"],
         "extensions": [".jinja", ".jinja2", ".j2", ".html.j2"],
+        "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "jinja-css",
+        "aliases": ["Jinja CSS", "jinja-css"],
+        "extensions": [".css.j2", ".css.jinja", ".css.jinja2"],
         "configuration": "./language-configuration.json"
       },
       {
@@ -57,7 +65,7 @@
       {
         "id": "jinja-yaml",
         "aliases": ["Jinja YAML", "jinja-yaml"],
-        "extensions": [".yml.j2", ".yaml.j2", ".sls"],
+        "extensions": [".yml.j2", ".yaml.j2", ".yml.jinja2", ".yaml.jinja2", ".yml.jinja", ".yaml.jinja", ".sls"],
         "configuration": "./language-configuration.json"
       },
       {
@@ -119,6 +127,11 @@
         "language": "jinja-html",
         "scopeName": "text.html.jinja",
         "path": "./syntaxes/jinja-html.tmLanguage.json"
+      },
+      {
+        "language": "jinja-css",
+        "scopeName": "text.css.jinja",
+        "path": "./syntaxes/jinja-css.tmLanguage.json"
       },
       {
         "language": "jinja-md",
