@@ -1,0 +1,13 @@
+{
+  "name": "jinja-css",
+  "scopeName": "text.css.jinja",
+  "comment": "Jinja CSS Templates",
+  "patterns": [
+    {
+      "include": "source.jinja"
+    },
+    {
+      "include": "source.css"
+    }
+  ]
+}
