@@ -16,9 +16,7 @@
     "jinja2",
     "django",
     "markdown",
-    "yaml",
-    "python",
-    "css"
+    "yaml"
   ],
   "repository": {
     "type": "git",
