@@ -1,4 +1,8 @@
 # Change Log
+
+## [0.10.3] - 2019-05-17
+* fix jinja-python @lukesneeringer
+
 ## [0.10.2] - 2019-05-05
 * add css support by @gsemet
 
