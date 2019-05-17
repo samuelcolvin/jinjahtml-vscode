@@ -138,7 +138,7 @@
       },
       {
         "language": "jinja-py",
-        "scopeName": "text.python.jinja",
+        "scopeName": "source.python.jinja",
         "path": "./syntaxes/jinja-python.tmLanguage.json"
       },
       {
