@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.10.4] - 2019-06-07
+* add json suppor by @n-a-sz #31
+
 ## [0.10.3] - 2019-05-17
 * fix jinja-python @lukesneeringer
 
