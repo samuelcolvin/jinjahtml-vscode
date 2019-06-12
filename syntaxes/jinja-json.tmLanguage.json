@@ -1,0 +1,13 @@
+{
+  "name": "jinja-json",
+  "scopeName": "text.json.jinja",
+  "comment": "Jinja JSON Templates",
+  "patterns": [
+    {
+      "include": "source.jinja"
+    },
+    {
+      "include": "source.json"
+    }
+  ]
+}
