@@ -1,0 +1,13 @@
+{
+  "name": "jinja-toml",
+  "scopeName": "text.toml.jinja",
+  "comment": "Jinja TOML Templates",
+  "patterns": [
+    {
+      "include": "source.jinja"
+    },
+    {
+      "include": "source.toml"
+    }
+  ]
+}
