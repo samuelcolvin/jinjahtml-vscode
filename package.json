@@ -73,6 +73,12 @@
         "configuration": "./language-configuration.json"
       },
       {
+        "id": "jinja-toml",
+        "aliases": ["Jinja TOML", "jinja-toml"],
+        "extensions": [".toml.j2", ".toml.jinja2", ".toml.jinja"],
+        "configuration": "./language-configuration.json"
+      },
+      {
         "id": "jinja-latex",
         "aliases": ["Jinja LaTeX", "jinja-latex"],
         "extensions": [".latex.j2", ".tex.j2", ".latex.jinja2", ".tex.jinja2"],
@@ -166,6 +172,11 @@
         "language": "jinja-yaml",
         "scopeName": "text.yaml.jinja",
         "path": "./syntaxes/jinja-yaml.tmLanguage.json"
+      },
+      {
+        "language": "jinja-toml",
+        "scopeName": "text.toml.jinja",
+        "path": "./syntaxes/jinja-toml.tmLanguage.json"
       },
       {
         "language": "jinja-latex",

@@ -44,6 +44,12 @@ Jinja YAML (sls) templates: system name `jinja-yaml`.
 
 Default file assocations: `.yml.j2`, `.yaml.j2` and `.sls`.
 
+### Jinja TOML
+
+Jinja TOML templates: system name `jinja-toml`.
+
+Default file assocations: `.toml.jinja`, `.toml.jinja2` and `.toml.j2`.
+
 ### Jinja LaTeX
 
 Jinja latex templates: system name `jinja-latex`.
