@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.10.5] - 2019-07-03
+* Add support for TOML files @Hipska #35
+
 ## [0.10.4] - 2019-06-07
 * add json support by @n-a-sz #31
 
