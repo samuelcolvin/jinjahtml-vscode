@@ -1,0 +1,13 @@
+{
+    "name": "jinja-properties",
+    "scopeName": "source.systemUnitFile.jinja",
+    "comment": "Jinja Systemd Unit File Templates",
+    "patterns": [
+        {
+            "include": "source.jinja"
+        },
+        {
+            "include": "source.systemUnitFile"
+        }
+    ]
+}
