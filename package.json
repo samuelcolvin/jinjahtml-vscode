@@ -132,8 +132,8 @@
         "configuration": "./language-configuration.json"
       },
       {
-        "id": "jinja-service",
-        "aliases": ["Jinja Systemd Unit File", "jinja-systemdunitfile"],
+        "id": "jinja-systemd",
+        "aliases": ["Jinja Systemd Unit File", "jinja-systemd"],
         "extensions": [".service.j2", ".service.jinja", ".service.jinja2"],
         "configuration": "./language-configuration.json"
       }
@@ -225,8 +225,8 @@
         "path": "./syntaxes/jinja-terraform.tmLanguage.json"
       },
       {
-        "language": "jinja-systemdunitfile",
-        "scopeName": "source.systemUnitFile.jinja",
+        "language": "jinja-systemd",
+        "scopeName": "source.systemd.jinja",
         "path": "./syntaxes/jinja-systemd.tmLanguage.json"
       }
     ],
