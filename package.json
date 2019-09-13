@@ -130,6 +130,12 @@
         "aliases": ["Jinja Groovy", "jinja-groovy"],
         "extensions": [".groovy.j2", ".groovy.jinja", ".groovy.jinja2"],
         "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "jinja-service",
+        "aliases": ["Jinja Systemd Unit File", "jinja-systemdunitfile"],
+        "extensions": [".service.j2", ".service.jinja", ".service.jinja2"],
+        "configuration": "./language-configuration.json"
       }
     ],
     "grammars": [
@@ -217,6 +223,11 @@
         "language": "jinja-terraform",
         "scopeName": "source.terraform.jinja",
         "path": "./syntaxes/jinja-terraform.tmLanguage.json"
+      },
+      {
+        "language": "jinja-systemdunitfile",
+        "scopeName": "source.systemUnitFile.jinja",
+        "path": "./syntaxes/jinja-systemd.tmLanguage.json"
       }
     ],
     "snippets": [
