@@ -1,0 +1,21 @@
+[Unit]
+Description=Node.js Video Server
+After=network.target
+
+[Service]
+WorkingDirectory={{ app_path }}/sites/www/ui/
+ExecStart=/usr/bin/node {{ app_path }}/sites/www/ui/server.js
+Restart=on-failure
+# Restart service after 10 seconds if node service crashes
+RestartSec=10
+# Output to syslog
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=nodejs-video-server
+Type=simple
+User={{ app_user }}
+Group={{ app_group }}
+Environment=NODE_ENV=production PORT=3000
+
+[Install]
+WantedBy=multi-user.target

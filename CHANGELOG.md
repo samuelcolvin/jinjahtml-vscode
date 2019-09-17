@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.10.6] - 2019-09-16
+* Add support for Systemd Unit files @joshreep #30
+
 ## [0.10.5] - 2019-07-03
 * Add support for TOML files @Hipska #35
 
