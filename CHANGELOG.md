@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.11] - 2019-11-25
+* Add support for lua files @sunaoka #42
+
 ## [0.10.6] - 2019-09-16
 * Add support for Systemd Unit files @joshreep #30
 
