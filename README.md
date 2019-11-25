@@ -59,6 +59,12 @@ so those are replaced by `((* *))` in LaTeX templates.
 
 Default file assocations: `.latex.j2`, `.tex.j2`, `.latex.jinja2` and `.tex.jinja2`.
 
+### Jinja Lua
+
+Jinja Lua templates: system name `jinja-lua`.
+
+Default file assocations: `.lua.jinja`, `.lua.jinja2` and `.lua.j2`.
+
 ### Jinja Properties
 
 aka config / cfg / ini file: system name `jinja-properties`.

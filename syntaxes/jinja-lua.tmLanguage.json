@@ -1,0 +1,13 @@
+{
+  "name": "jinja-lua",
+  "scopeName": "text.lua.jinja",
+  "comment": "Jinja Lua Templates",
+  "patterns": [
+    {
+      "include": "source.jinja"
+    },
+    {
+      "include": "source.lua"
+    }
+  ]
+}
