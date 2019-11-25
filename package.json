@@ -85,6 +85,12 @@
         "configuration": "./language-configuration-latex.json"
       },
       {
+        "id": "jinja-lua",
+        "aliases": ["Jinja Lua", "jinja-lua"],
+        "extensions": [".lua.j2", ".lua.jinja2", ".lua.jinja"],
+        "configuration": "./language-configuration.json"
+      },
+      {
         "id": "jinja-properties",
         "aliases": ["Jinja Properties/ini/Conf", "jinja-properties", "jinja-ini", "jinja-conf"],
         "extensions": [".properties.j2", ".cfg.j2", ".conf.j2", ".desktop.j2", ".directory.j2", ".ini.j2"],
@@ -196,6 +202,11 @@
         "language": "jinja-latex",
         "scopeName": "text.latex.jinja",
         "path": "./syntaxes/jinja-latex.tmLanguage.json"
+      },
+      {
+        "language": "jinja-lua",
+        "scopeName": "text.lua.jinja",
+        "path": "./syntaxes/jinja-lua.tmLanguage.json"
       },
       {
         "language": "jinja-properties",
