@@ -106,6 +106,12 @@ Jinja Terraform templates: system name `jinja-terraform`.
 
 Default file associations: `.tf.j2`, `.tf.jinja`, `.tf.jinja2`, `.tfvars.j2`, `.tfvars.jinja`, and `.tfvars.jinja2`.
 
+### Jinja TypeScript
+
+Jinja TypeScript templates: system name `jinja-typescript`.
+
+Default file associations: `.ts.jinja`, `.ts.jinja2` and `.ts.j2`.
+
 ### Jinja Groovy
 
 Jinja Groovy templates: system name `jinja-groovy`.

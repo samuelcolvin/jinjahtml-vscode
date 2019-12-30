@@ -1,0 +1,13 @@
+{
+  "name": "jinja-typescript",
+  "scopeName": "source.typescript.jinja",
+  "comment": "Jinja TypeScript Templates",
+  "patterns": [
+    {
+      "include": "source.jinja"
+    },
+    {
+      "include": "source.ts"
+    }
+  ]
+}

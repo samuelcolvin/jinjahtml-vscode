@@ -244,6 +244,11 @@
         "path": "./syntaxes/jinja-terraform.tmLanguage.json"
       },
       {
+        "language": "jinja-typescript",
+        "scopeName": "source.typescript.jinja",
+        "path": "./syntaxes/jinja-typescript.tmLanguage.json"
+      },
+      {
         "language": "jinja-systemd",
         "scopeName": "source.systemd.jinja",
         "path": "./syntaxes/jinja-systemd.tmLanguage.json"
