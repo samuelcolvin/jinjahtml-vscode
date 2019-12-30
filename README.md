@@ -22,7 +22,7 @@ Default file associations: `.jinja`, `.jinja2`, `.j2` and `.html.j2`.
 
 ### Jinja CSS
 
-Jinja HTML templates: system name `jinja-css`.
+Jinja CSS templates: system name `jinja-css`.
 
 Default file associations: `.css.jinja`, `.css.jinja2`, `.css.j2`.
 
