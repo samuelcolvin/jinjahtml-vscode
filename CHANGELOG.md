@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.12] - 2020-03-05
+* `*.env.jinja` files detected as jinja-shell syntax #47
+
 ## [0.11] - 2019-11-25
 * Add support for lua files @sunaoka #42
 
