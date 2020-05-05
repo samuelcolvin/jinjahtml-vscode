@@ -1,0 +1,13 @@
+{
+  "name": "jinja-xml",
+  "scopeName": "text.xml.jinja",
+  "comment": "Jinja XML Templates",
+  "patterns": [
+    {
+      "include": "source.jinja"
+    },
+    {
+      "include": "text.xml"
+    }
+  ]
+}

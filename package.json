@@ -31,6 +31,12 @@
         "configuration": "./language-configuration.json"
       },
       {
+        "id": "jinja-xml",
+        "aliases": ["Jinja XML", "jinja-xml"],
+        "extensions": [".xml.j2", ".xml.jinja", ".xml.jinja2"],
+        "configuration": "./language-configuration.json"
+      },
+      {
         "id": "jinja-css",
         "aliases": ["Jinja CSS", "jinja-css"],
         "extensions": [".css.j2", ".css.jinja", ".css.jinja2"],
@@ -157,6 +163,11 @@
         "language": "jinja-html",
         "scopeName": "text.html.jinja",
         "path": "./syntaxes/jinja-html.tmLanguage.json"
+      },
+      {
+        "language": "jinja-xml",
+        "scopeName": "text.xml.jinja",
+        "path": "./syntaxes/jinja-xml.tmLanguage.json"
       },
       {
         "language": "jinja-css",
