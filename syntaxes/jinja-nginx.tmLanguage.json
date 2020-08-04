@@ -1,0 +1,13 @@
+{
+    "name": "jinja-nginx",
+    "scopeName": "source.nginx.jinja",
+    "comment": "Jinja NGINX Templates",
+    "patterns": [
+      {
+        "include": "source.jinja"
+      },
+      {
+        "include": "source.nginx"
+      }
+    ]
+  }
