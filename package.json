@@ -134,7 +134,7 @@
       {
         "id": "jinja-terraform",
         "aliases": ["Jinja Terraform", "jinja-terraform"],
-        "extensions": [".conf.j2", ".conf.jinja", ".conf.jinja2", "nginx.conf.j2", "nginx.conf.jinja", "nginx.conf.jinja2"],
+        "extensions": [".conf.j2", ".conf.jinja", ".conf.jinja2"],
         "configuration": "./language-configuration.json"
       },
       {

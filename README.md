@@ -116,7 +116,7 @@ Default file associations: `.tf.j2`, `.tf.jinja`, `.tf.jinja2`, `.tfvars.j2`, `.
 
 Jinja Nginx Conf templates: system name `jinja-nginx`.
 
-Default file associations: `.conf.j2`, `.conf.jinja`, `.conf.jinja2`, `nginx.conf.j2`, `nginx.conf.jinja`, and `nginx.conf.jinja2`.
+Default file associations: `.conf.j2`, `.conf.jinja`, and `.conf.jinja2`.
 
 ### Jinja Groovy
 
