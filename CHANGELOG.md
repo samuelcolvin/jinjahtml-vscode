@@ -1,7 +1,16 @@
 # Change Log
 
-## [0.13] - 2020-08-11
+## [0.15] - 2020-08-11
 * Add support for cpp files by @StoneLabs
+
+## [0.14.1] - 2020-08-11
+* fix nginx extensions
+
+## [0.14] - 2020-08-11
+* Add Nginx conf file support #63
+
+## [0.13] - 2020-05-05
+* Add XML file support #53
 
 ## [0.12] - 2020-03-05
 * `*.env.jinja` files detected as jinja-shell syntax #47

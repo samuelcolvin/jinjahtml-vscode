@@ -1,0 +1,39 @@
+user              nginx;
+worker_processes  4;
+
+error_log  /var/log/nginx/error.log;
+pid        /var/run/nginx.pid;
+
+events {
+    worker_connections  1024;
+}
+
+http {
+    include       /etc/nginx/mime.types;
+    default_type  application/octet-stream;
+
+    log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
+                      '$status $body_bytes_sent "$http_referer" '
+                      '"$http_user_agent" "$http_x_forwarded_for"';
+
+    access_log  /var/log/nginx/access.log  main;
+    sendfile        on;
+    keepalive_timeout  65;
+
+    include /etc/nginx/conf.d/*.conf;
+
+    server {
+        listen 80 default;
+        location /nginx_status {
+            stub_status on;
+            access_log off;
+            allow 127.0.0.1;
+            allow {{ salt['pillar.get']('pypi_internal_network', '127.0.0.0/24') }};
+            deny all;
+        }
+        location /.well-known/acme-challenge/ {
+            alias /etc/lego/.well-known/acme-challenge/;
+            try_files $uri =404;
+        }
+    }
+}
