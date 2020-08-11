@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.14.1] - 2020-08-11
+* fix nginx extensions
+
 ## [0.14] - 2020-08-11
 * Add Nginx conf file support #63
 
