@@ -2,7 +2,7 @@
   "name": "jinjahtml",
   "displayName": "Better Jinja",
   "description": "Syntax highlighting for jinja(2) including HTML, Markdown, YAML, Ruby and LaTeX templates",
-  "version": "0.15",
+  "version": "0.15.0",
   "publisher": "samuelcolvin",
   "author": "Samuel Colvin",
   "engines": {
@@ -168,7 +168,7 @@
         "aliases": ["Jinja C++", "jinja-cpp"],
         "extensions": [".cpp.j2", ".cpp.jinja", ".cpp.jinja2"],
         "configuration": "./language-configuration.json"
-      },
+      }
     ],
     "grammars": [
       {
