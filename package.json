@@ -134,6 +134,12 @@
       {
         "id": "jinja-terraform",
         "aliases": ["Jinja Terraform", "jinja-terraform"],
+        "extensions": [".conf.j2", ".conf.jinja", ".conf.jinja2"],
+        "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "jinja-nginx",
+        "aliases": ["Jinja Nginx", "jinja-nginx"],
         "extensions": [".tf.j2", ".tf.jinja", ".tf.jinja2", ".tfvars.j2", ".tfvars.jinja", ".tfvars.jinja2"],
         "configuration": "./language-configuration.json"
       },
@@ -253,6 +259,11 @@
         "language": "jinja-terraform",
         "scopeName": "source.terraform.jinja",
         "path": "./syntaxes/jinja-terraform.tmLanguage.json"
+      },
+      {
+        "language": "jinja-nginx",
+        "scopeName": "source.nginx.jinja",
+        "path": "./syntaxes/jinja-nginx.tmLanguage.json"
       },
       {
         "language": "jinja-systemd",
