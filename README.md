@@ -124,6 +124,12 @@ Jinja Systemd Unit File templates: system name `jinja-systemd`.
 
 Default file associations: `.link.j2`, `.link.jinja`, `.link.jinja2`, `.netdev.j2`, `.netdev.jinja`, `.netdev.jinja2`, `.network.j2`, `.network.jinja`, `.network.jinja2`, `.service.j2`, `.service.jinja`, `.service.jinja2`, `.socket.j2`, `.socket.jinja`, `.socket.jinja2`, `.device.j2`, `.device.jinja`, `.device.jinja2`, `.mount.j2`, `.mount.jinja`, `.mount.jinja2`, `.automount.j2`, `.automount.jinja`, `.automount.jinja2`, `.swap.j2`, `.swap.jinja`, `.swap.jinja2`, `.target.j2`, `.target.jinja`, `.target.jinja2`, `.path.j2`, `.path.jinja`, `.path.jinja2`, `.timer.j2`, `.timer.jinja`, `.timer.jinja2`, `.snapshot.j2`, `.snapshot.jinja`, `.snapshot.jinja2`, `.slice.j2`, `.slice.jinja`, `.slice.jinja2`, `.scope.j2`, `.scope.jinja` and `.scope.jinja2`.
 
+### Jinja C++
+
+Jinja C++ templates: system name `jinja-cpp`.
+
+Default file associations: `.cpp.jinja`, `.cpp.jinja2` and `.cpp.j2`.
+
 ## Extra File Associations
 
 You can add more file associations, for example to associate `.html` files with `jinja-html`;

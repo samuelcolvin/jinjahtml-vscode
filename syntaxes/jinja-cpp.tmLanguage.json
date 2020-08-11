@@ -1,0 +1,13 @@
+{
+  "name": "jinja-cpp",
+  "scopeName": "source.cpp.jinja",
+  "comment": "Jinja C++ Templates",
+  "patterns": [
+    {
+      "include": "source.jinja"
+    },
+    {
+      "include": "source.cpp"
+    }
+  ]
+}

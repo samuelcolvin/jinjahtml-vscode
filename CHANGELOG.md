@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.13] - 2020-03-05
+* Add support for cpp files by @StoneLabs
+
 ## [0.12] - 2020-03-05
 * `*.env.jinja` files detected as jinja-shell syntax #47
 
