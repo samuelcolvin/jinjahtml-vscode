@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.15] - 2020-08-11
+* Add support for cpp files by @StoneLabs
+
 ## [0.14.1] - 2020-08-11
 * fix nginx extensions
 
