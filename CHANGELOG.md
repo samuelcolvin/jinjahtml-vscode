@@ -1,6 +1,6 @@
 # Change Log
 
-## [0.13] - 2020-03-05
+## [0.13] - 2020-08-11
 * Add support for cpp files by @StoneLabs
 
 ## [0.12] - 2020-03-05
