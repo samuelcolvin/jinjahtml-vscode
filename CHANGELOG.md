@@ -1,5 +1,11 @@
 # Change Log
 
+## [0.14] - 2020-08-11
+* Add Nginx conf file support #63
+
+## [0.13] - 2020-05-05
+* Add XML file support #53
+
 ## [0.12] - 2020-03-05
 * `*.env.jinja` files detected as jinja-shell syntax #47
 
