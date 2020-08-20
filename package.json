@@ -45,7 +45,7 @@
       {
         "id": "jinja-json",
         "aliases": ["Jinja JSON", "jinja-json"],
-        "extensions": [".json.j2", ".json.jinja", ".json.jinja2"],
+        "extensions": [".json.j2", ".json.jinja", ".json.jinja2", ".code-workspace.j2", ".code-workspace.jinja", ".code-workspace.jinja2"],
         "configuration": "./language-configuration.json"
       },
       {
