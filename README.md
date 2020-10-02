@@ -136,6 +136,12 @@ Jinja C++ templates: system name `jinja-cpp`.
 
 Default file associations: `.cpp.jinja`, `.cpp.jinja2` and `.cpp.j2`.
 
+### Jinja Java
+
+Jinja Java templates: system name `jinja-java`.
+
+Default file associations: `..jinja`, `.cpp.jinja2` and `.cpp.j2`.
+
 ## Extra File Associations
 
 You can add more file associations, for example to associate `.html` files with `jinja-html`;
