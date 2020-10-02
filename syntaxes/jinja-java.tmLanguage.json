@@ -1,0 +1,13 @@
+{
+  "name": "jinja-java",
+  "scopeName": "source.java.jinja",
+  "comment": "Jinja Java Templates",
+  "patterns": [
+    {
+      "include": "source.jinja"
+    },
+    {
+      "include": "source.java"
+    }
+  ]
+}
