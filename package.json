@@ -166,7 +166,7 @@
       {
         "id": "jinja-cpp",
         "aliases": ["Jinja C++", "jinja-cpp"],
-        "extensions": [".cpp.j2", ".cpp.jinja", ".cpp.jinja2"],
+        "extensions": [".cpp.j2", ".cpp.jinja", ".cpp.jinja2", ".h.j2", ".h.jinja", ".h.jinja2"],
         "configuration": "./language-configuration.json"
       }
     ],
