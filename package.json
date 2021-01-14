@@ -168,6 +168,12 @@
         "aliases": ["Jinja C++", "jinja-cpp"],
         "extensions": [".cpp.j2", ".cpp.jinja", ".cpp.jinja2", ".h.j2", ".h.jinja", ".h.jinja2"],
         "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "jinja-java",
+        "aliases": ["Jinja Java"],
+        "extensions": [".java.j2", ".java.jinja", ".java.jinja2"],
+        "configuration": "./language-configuration.json"
       }
     ],
     "grammars": [
@@ -280,6 +286,11 @@
         "language": "jinja-cpp",
         "scopeName": "source.cpp.jinja",
         "path": "./syntaxes/jinja-cpp.tmLanguage.json"
+      },
+      {
+        "language": "jinja-java",
+        "scopeName": "source.java.jinja",
+        "path": "./syntaxes/jinja-java.tmLanguage.json"
       }
     ],
     "snippets": [
