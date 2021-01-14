@@ -1,7 +1,8 @@
 # Change Log
 
-## [0.16] - 2020-10-15
+## [0.16] - 2021-01-14
 * Add support for java files by @StoneLabs
+* add more extension to C++ file support
 
 ## [0.15] - 2020-08-11
 * Add support for cpp files by @StoneLabs
