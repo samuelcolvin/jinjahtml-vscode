@@ -170,6 +170,12 @@
         "configuration": "./language-configuration.json"
       },
       {
+        "id": "jinja-cisco",
+        "aliases": ["Jinja Cisco Config"],
+        "extensions": [".ios.j2", ".ios.jinja", ".ios.jinja2", ".cisco.j2", ".cisco.jinja", ".cisco.jinja2"],
+        "configuration": "./language-configuration.json"
+      },
+      {
         "id": "jinja-java",
         "aliases": ["Jinja Java"],
         "extensions": [".java.j2", ".java.jinja", ".java.jinja2"],
@@ -292,6 +298,11 @@
         "language": "jinja-cpp",
         "scopeName": "source.cpp.jinja",
         "path": "./syntaxes/jinja-cpp.tmLanguage.json"
+      },
+      {
+        "language": "jinja-cisco",
+        "scopeName": "source.cisco.jinja",
+        "path": "./syntaxes/jinja-cisco.tmLanguage.json"
       },
       {
         "language": "jinja-java",
