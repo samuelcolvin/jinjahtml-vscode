@@ -134,7 +134,7 @@ Default file associations: `.link.j2`, `.link.jinja`, `.link.jinja2`, `.netdev.j
 
 Jinja C++ templates: system name `jinja-cpp`.
 
-Default file associations: `.cpp.jinja`, `.cpp.jinja2`,`.cpp.j2`,`.h.jinja`, `.h.jinja2`, and `.h.j2`.
+Default file associations: `.c.j2`, `.c.jinja`, `.c.jinja2`, `.cpp.jinja`, `.cpp.jinja2`,`.cpp.j2`,`.h.jinja`, `.h.jinja2`, and `.h.j2`.
 
 ### Jinja Java
 
@@ -156,3 +156,8 @@ in your user or workspace settings add:
 ## Snippet Support
 
 * **[Django](https://github.com/vscode-django/vscode-django)**
+
+## Breakpoints Support
+
+Allows to set breakpoints in template file.
+In order to correctly debug template add `"jinja": true` option to your configuration in `launch.json` file.
