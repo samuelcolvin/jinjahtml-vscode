@@ -140,7 +140,7 @@ Default file associations: `.c.j2`, `.c.jinja`, `.c.jinja2`, `.cpp.jinja`, `.cpp
 
 Jinja Java templates: system name `jinja-java`.
 
-Default file associations: `..jinja`, `.cpp.jinja2` and `.cpp.j2`.
+Default file associations: `.java.j2`, `.java.jinja`, and `.java.jinja2`.
 
 ## Extra File Associations
 
