@@ -166,7 +166,7 @@
       {
         "id": "jinja-cpp",
         "aliases": ["Jinja C++", "jinja-cpp"],
-        "extensions": [".cpp.j2", ".cpp.jinja", ".cpp.jinja2", ".h.j2", ".h.jinja", ".h.jinja2"],
+        "extensions": [".c.j2", ".c.jinja", ".c.jinja2", ".cpp.j2", ".cpp.jinja", ".cpp.jinja2", ".h.j2", ".h.jinja", ".h.jinja2"],
         "configuration": "./language-configuration.json"
       },
       {
@@ -294,11 +294,79 @@
       }
     ],
     "snippets": [
-			{
-				"language": "jinja-html",
-				"scopeName": "text.html.jinja",
-				"path": "./snippets/django-snippets.json"
-			}
-		]
+      {
+        "language": "jinja-html",
+        "scopeName": "text.html.jinja",
+        "path": "./snippets/django-snippets.json"
+      }
+    ],
+    "breakpoints": [
+      {
+        "language": "jinja-html"
+      },
+      {
+        "language": "jinja-xml"
+      },
+      {
+        "language": "jinja-css"
+      },
+      {
+        "language": "jinja-json"
+      },
+      {
+        "language": "jinja-md"
+      },
+      {
+        "language": "jinja-py"
+      },
+      {
+        "language": "jinja-rb"
+      },
+      {
+        "language": "jinja-js"
+      },
+      {
+        "language": "jinja-yaml"
+      },
+      {
+        "language": "jinja-toml"
+      },
+      {
+        "language": "jinja-latex"
+      },
+      {
+        "language": "jinja-lua"
+      },
+      {
+        "language": "jinja-properties"
+      },
+      {
+        "language": "jinja-shell"
+      },
+      {
+        "language": "jinja-dockerfile"
+      },
+      {
+        "language": "jinja-sql"
+      },
+      {
+        "language": "jinja-groovy"
+      },
+      {
+        "language": "jinja-terraform"
+      },
+      {
+        "language": "jinja-nginx"
+      },
+      {
+        "language": "jinja-systemd"
+      },
+      {
+        "language": "jinja-cpp"
+      },
+      {
+        "language": "jinja-java"
+      }
+    ]
   }
 }
