@@ -142,6 +142,12 @@ Jinja Java templates: system name `jinja-java`.
 
 Default file associations: `.java.j2`, `.java.jinja`, and `.java.jinja2`.
 
+### Jinja PHP
+
+Jinja PHP templates: system name `jinja-php`.
+
+Default file associations: `.php.j2`, `.php.jinja`, and `.php.jinja2`.
+
 ## Extra File Associations
 
 You can add more file associations, for example to associate `.html` files with `jinja-html`;
