@@ -377,6 +377,9 @@
       },
       {
         "language": "jinja-java"
+      },
+      {
+        "language": "jinja-php"
       }
     ]
   }
