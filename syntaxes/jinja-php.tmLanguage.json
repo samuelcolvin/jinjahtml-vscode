@@ -1,0 +1,13 @@
+{
+  "name": "jinja-php",
+  "scopeName": "source.php.jinja",
+  "comment": "Jinja PHP Templates",
+  "patterns": [
+    {
+      "include": "source.jinja"
+    },
+    {
+      "include": "source.php"
+    }
+  ]
+}
