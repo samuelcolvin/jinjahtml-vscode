@@ -391,6 +391,9 @@
       },
       {
         "language": "jinja-php"
+      },
+      {
+        "language": "jinja-cisco"
       }
     ]
   }
