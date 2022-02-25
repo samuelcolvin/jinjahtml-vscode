@@ -1,0 +1,14 @@
+{
+  "name": "jinja-cisco",
+  "scopeName": "source.cisco.jinja",
+  "comment": "Jinja Cisco Config Templates",
+  "fileTypes": ["cisco.j2"],
+  "patterns": [
+    {
+      "include": "source.jinja"
+    },
+    {
+      "include": "source.cisco"
+    }
+  ]
+}
