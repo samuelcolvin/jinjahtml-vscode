@@ -154,6 +154,12 @@ Cisco IOS configuration templates: system name `jinja-cisco`.
 
 Default file associations: `.ios.j2`, `.ios.jinja`, `.ios.jinja2`, `.cisco.j2`, `.cisco.jinja`, `.cisco.jinja2`
 
+### Jinja Rust
+
+Jinja Rust templates: system name `jinja-rust`.
+
+Default file associations: `.rs.j2`, `.rs.jinja`, and `.rs.jinja2`
+
 ## Extra File Associations
 
 You can add more file associations, for example to associate `.html` files with `jinja-html`;
