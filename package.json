@@ -186,6 +186,12 @@
         "aliases": ["Jinja PHP"],
         "extensions": [".php.j2", ".php.jinja", ".php.jinja2"],
         "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "jinja-rust",
+        "aliases": ["Jinja Rust"],
+        "extensions": [".rs.j2", ".rs.jinja", ".rs.jinja2"],
+        "configuration": "./language-configuration.json"
       }
     ],
     "grammars": [
@@ -313,6 +319,11 @@
         "language": "jinja-php",
         "scopeName": "source.php.jinja",
         "path": "./syntaxes/jinja-php.tmLanguage.json"
+      },
+      {
+        "language": "jinja-rust",
+        "scopeName": "source.rust.jinja",
+        "path": "./syntaxes/jinja-rust.tmLanguage.json"
       }
     ],
     "snippets": [
@@ -394,6 +405,9 @@
       },
       {
         "language": "jinja-cisco"
+      },
+      {
+        "language": "jinja-rust"
       }
     ]
   }
