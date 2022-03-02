@@ -405,6 +405,9 @@
       },
       {
         "language": "jinja-cisco"
+      },
+      {
+        "language": "jinja-rust"
       }
     ]
   }
