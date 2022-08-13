@@ -106,6 +106,12 @@ Jinja python templates: system name `jinja-py`.
 
 Default file associations: `.py.j2`, `.py.jinja` and `.py.jinja2`.
 
+### Jinja Cython
+
+Jinja cython templates: system name `jinja-cy`.
+
+Default file associations: `.pyx.j2`, `.pyx.jinja`, `.pyx.jinja2`, `.pxd.j2`, `.pxd.jinja`, `.pxd.jinja2`, `.pxi.j2`, `.pxi.jinja` and `.pxi.jinja2`.
+
 ### Jinja Terraform
 
 Jinja Terraform templates: system name `jinja-terraform`.

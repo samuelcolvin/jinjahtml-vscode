@@ -61,6 +61,12 @@
         "configuration": "./language-configuration.json"
       },
       {
+        "id": "jinja-cy",
+        "aliases": ["Jinja Cython", "jinja-cy"],
+        "extensions": ["pyx.j2", "pyx.jinja", "pyx.jinja2", "pxd.j2", "pxd.jinja", "pxd.jinja2", "pxi.j2", "pxi.jinja", "pxi.jinja2"],
+        "configuration": "./language-configuration.json"
+      },
+      {
         "id": "jinja-rb",
         "aliases": ["Jinja Ruby", "jinja-rb"],
         "extensions": ["rb.j2", "rbw.j2", "rb.jinja2", "rbw.jinja2"],
@@ -226,6 +232,11 @@
         "path": "./syntaxes/jinja-python.tmLanguage.json"
       },
       {
+        "language": "jinja-cy",
+        "scopeName": "source.cython.jinja",
+        "path": "./syntaxes/jinja-cython.tmLanguage.json"
+      },
+      {
         "language": "jinja-rb",
         "scopeName": "text.ruby.jinja",
         "path": "./syntaxes/jinja-ruby.tmLanguage.json"
@@ -351,6 +362,9 @@
       },
       {
         "language": "jinja-py"
+      },
+      {
+        "language": "jinja-cy"
       },
       {
         "language": "jinja-rb"

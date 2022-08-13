@@ -1,0 +1,13 @@
+{
+  "name": "jinja-cython",
+  "scopeName": "source.cython.jinja",
+  "comment": "Jinja Cython Templates",
+  "patterns": [
+    {
+      "include": "source.jinja"
+    },
+    {
+      "include": "source.cython"
+    }
+  ]
+}
