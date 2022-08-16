@@ -68,6 +68,20 @@ so this extension adopts the style used in
 - `(((` and `)))` (rather than `{{` and `}}`) for expressions / variables
 - `((=` and `=))` (rather than `{#` and `#}`) for comments
 
+Thus assuming the following Jinja configuration:
+
+```python
+env = jinja2.Environment(
+    block_start_string="((*",
+    block_end_string="*))",
+    variable_start_string="(((",
+    variable_end_string=")))",
+    comment_start_string="((=",
+    comment_end_string="=))",
+    ...
+)
+```
+
 Default file associations: `.latex.j2`, `.tex.j2`, `.latex.jinja2` and `.tex.jinja2`.
 
 ### Jinja Lua
