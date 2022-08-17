@@ -137,7 +137,7 @@
           "name": "keyword.control.jinja"
         },
         {
-					"match": "\\b(true|false|none)\\b",
+          "match": "\\b(true|false|none)\\b",
           "name": "constant.language.jinja"
         },
         {
@@ -149,7 +149,7 @@
           "name": "variable.other.jinja"
         },
         {
-          "match": "(\\+|\\-|\\*\\*|\\*|\/\/|\/|%)",
+          "match": "(\\+|\\-|\\*\\*|\\*|//|/|%)",
           "name": "keyword.operator.arithmetic.jinja"
         },
         {
@@ -269,13 +269,13 @@
           ]
         },
         {
-          "begin": "@\/",
+          "begin": "@/",
           "beginCaptures": [
             {
               "name": "punctuation.definition.regexp.begin.jinja"
             }
           ],
-          "end": "\/",
+          "end": "/",
           "endCaptures": [
             {
               "name": "punctuation.definition.regexp.end.jinja"
