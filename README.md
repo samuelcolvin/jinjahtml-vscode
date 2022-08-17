@@ -123,7 +123,7 @@ Default file associations: `.sql.j2`, `.sql.jinja` and `.sql.jinja2`.
 
 Jinja python templates: system name `jinja-py`.
 
-Default file associations: `.py.j2`, `.py.jinja` and `.py.jinja2`.
+Default file associations: `.py.j2`, `.py.jinja`, `.py.jinja2`, `.pyi.j2`, `.pyi.jinja` and `.pyi.jinja2`.
 
 ### Jinja Cython
 
