@@ -2,7 +2,7 @@
 
 Syntax highlighting for jinja(2) including HTML, Markdown, YAML and other templates.
 
-![IDE](https://raw.githubusercontent.com/samuelcolvin/jinjahtml-vscode/master/screenshot.png)
+![IDE](https://raw.githubusercontent.com/samuelcolvin/jinjahtml-vscode/main/screenshot.png)
 
 ## Languages:
 
@@ -198,7 +198,7 @@ in your user or workspace settings add:
 
 ## Snippet Support
 
-* **[Django](https://github.com/vscode-django/vscode-django)**
+- **[Django](https://github.com/vscode-django/vscode-django)**
 
 ## Breakpoints Support
 

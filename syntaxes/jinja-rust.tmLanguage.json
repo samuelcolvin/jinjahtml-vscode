@@ -1,13 +1,13 @@
 {
-    "name": "jinja-rust",
-    "scopeName": "source.rust.jinja",
-    "comment": "Jinja Rust Templates",
-    "patterns": [
-        {
-            "include": "source.jinja"
-        },
-        {
-            "include": "source.rust"
-        }
-    ]
+  "name": "jinja-rust",
+  "scopeName": "source.rust.jinja",
+  "comment": "Jinja Rust Templates",
+  "patterns": [
+    {
+      "include": "source.jinja"
+    },
+    {
+      "include": "source.rust"
+    }
+  ]
 }

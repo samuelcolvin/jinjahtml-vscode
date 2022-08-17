@@ -1,16 +1,16 @@
 {
-    "name": "jinja-md",
-    "scopeName": "text.html.markdown.jinja",
-    "comment": "Jinja Markdown Templates",
-    "firstLineMatch": "^{% extends [\"'][^\"']+[\"'] %}",
-    "foldingStartMarker": "(<(?i:(head|table|tr|div|style|script|ul|ol|form|dl))\\b.*?>|{%\\s*(block|filter|for|if|macro|raw))",
-    "foldingStopMarker": "(<\/(?i:(head|table|tr|div|style|script|ul|ol|form|dl))\\b.*?>|{%\\s*(endblock|endfilter|endfor|endif|endmacro|endraw)\\s*%})",
-    "patterns": [
-        {
-            "include": "source.jinja"
-        },
-        {
-            "include": "text.html.markdown"
-        }
-    ]
+  "name": "jinja-md",
+  "scopeName": "text.html.markdown.jinja",
+  "comment": "Jinja Markdown Templates",
+  "firstLineMatch": "^{% extends [\"'][^\"']+[\"'] %}",
+  "foldingStartMarker": "(<(?i:(head|table|tr|div|style|script|ul|ol|form|dl))\\b.*?>|{%\\s*(block|filter|for|if|macro|raw))",
+  "foldingStopMarker": "(</(?i:(head|table|tr|div|style|script|ul|ol|form|dl))\\b.*?>|{%\\s*(endblock|endfilter|endfor|endif|endmacro|endraw)\\s*%})",
+  "patterns": [
+    {
+      "include": "source.jinja"
+    },
+    {
+      "include": "text.html.markdown"
+    }
+  ]
 }

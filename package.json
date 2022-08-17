@@ -10,7 +10,9 @@
   },
   "license": "MIT",
   "icon": "icon.png",
-  "categories": ["Programming Languages"],
+  "categories": [
+    "Programming Languages"
+  ],
   "keywords": [
     "jinja",
     "jinja2",
@@ -22,181 +24,469 @@
     "type": "git",
     "url": "https://github.com/samuelcolvin/jinjahtml-vscode.git"
   },
+  "scripts": {
+    "format": "prettier --write '**/*.{js,json,md}'",
+    "lint": "prettier --check '**/*.{js,json,md}'"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "trailingComma": "all",
+    "tabWidth": 2,
+    "printWidth": 119,
+    "bracketSpacing": false,
+    "arrowParens": "avoid"
+  },
+  "devDependencies": {
+    "prettier": "2.7.1"
+  },
   "contributes": {
     "languages": [
       {
         "id": "jinja-html",
-        "aliases": ["Jinja HTML", "jinja-html"],
-        "extensions": [".jinja", ".jinja2", ".j2", ".html.j2"],
+        "aliases": [
+          "Jinja HTML",
+          "jinja-html"
+        ],
+        "extensions": [
+          ".jinja",
+          ".jinja2",
+          ".j2",
+          ".html.j2"
+        ],
         "configuration": "./language-configuration.json"
       },
       {
         "id": "jinja-xml",
-        "aliases": ["Jinja XML", "jinja-xml"],
-        "extensions": [".xml.j2", ".xml.jinja", ".xml.jinja2"],
+        "aliases": [
+          "Jinja XML",
+          "jinja-xml"
+        ],
+        "extensions": [
+          ".xml.j2",
+          ".xml.jinja",
+          ".xml.jinja2"
+        ],
         "configuration": "./language-configuration.json"
       },
       {
         "id": "jinja-css",
-        "aliases": ["Jinja CSS", "jinja-css"],
-        "extensions": [".css.j2", ".css.jinja", ".css.jinja2"],
+        "aliases": [
+          "Jinja CSS",
+          "jinja-css"
+        ],
+        "extensions": [
+          ".css.j2",
+          ".css.jinja",
+          ".css.jinja2"
+        ],
         "configuration": "./language-configuration.json"
       },
       {
         "id": "jinja-json",
-        "aliases": ["Jinja JSON", "jinja-json"],
-        "extensions": [".json.j2", ".json.jinja", ".json.jinja2", ".code-workspace.j2", ".code-workspace.jinja", ".code-workspace.jinja2"],
+        "aliases": [
+          "Jinja JSON",
+          "jinja-json"
+        ],
+        "extensions": [
+          ".json.j2",
+          ".json.jinja",
+          ".json.jinja2",
+          ".code-workspace.j2",
+          ".code-workspace.jinja",
+          ".code-workspace.jinja2"
+        ],
         "configuration": "./language-configuration.json"
       },
       {
         "id": "jinja-md",
-        "aliases": ["Jinja Markdown", "jinja-md"],
-        "extensions": [".md.jinja", ".md.jinja2", ".md.j2"],
+        "aliases": [
+          "Jinja Markdown",
+          "jinja-md"
+        ],
+        "extensions": [
+          ".md.jinja",
+          ".md.jinja2",
+          ".md.j2"
+        ],
         "configuration": "./language-configuration.json"
       },
       {
         "id": "jinja-py",
-        "aliases": ["Jinja Python", "jinja-py"],
-        "extensions": ["py.j2", "py.jinja", "py.jinja2", "pyi.j2", "pyi.jinja", "pyi.jinja2"],
+        "aliases": [
+          "Jinja Python",
+          "jinja-py"
+        ],
+        "extensions": [
+          "py.j2",
+          "py.jinja",
+          "py.jinja2",
+          "pyi.j2",
+          "pyi.jinja",
+          "pyi.jinja2"
+        ],
         "configuration": "./language-configuration.json"
       },
       {
         "id": "jinja-cy",
-        "aliases": ["Jinja Cython", "jinja-cy"],
-        "extensions": ["pyx.j2", "pyx.jinja", "pyx.jinja2", "pxd.j2", "pxd.jinja", "pxd.jinja2", "pxi.j2", "pxi.jinja", "pxi.jinja2"],
+        "aliases": [
+          "Jinja Cython",
+          "jinja-cy"
+        ],
+        "extensions": [
+          "pyx.j2",
+          "pyx.jinja",
+          "pyx.jinja2",
+          "pxd.j2",
+          "pxd.jinja",
+          "pxd.jinja2",
+          "pxi.j2",
+          "pxi.jinja",
+          "pxi.jinja2"
+        ],
         "configuration": "./language-configuration.json"
       },
       {
         "id": "jinja-rb",
-        "aliases": ["Jinja Ruby", "jinja-rb"],
-        "extensions": ["rb.j2", "rbw.j2", "rb.jinja2", "rbw.jinja2"],
+        "aliases": [
+          "Jinja Ruby",
+          "jinja-rb"
+        ],
+        "extensions": [
+          "rb.j2",
+          "rbw.j2",
+          "rb.jinja2",
+          "rbw.jinja2"
+        ],
         "configuration": "./language-configuration.json"
       },
       {
         "id": "jinja-js",
-        "aliases": ["Jinja JavaScript", "Jinja JS", "jinja-js"],
-        "extensions": ["js.j2", "js.jinja2"],
+        "aliases": [
+          "Jinja JavaScript",
+          "Jinja JS",
+          "jinja-js"
+        ],
+        "extensions": [
+          "js.j2",
+          "js.jinja2"
+        ],
         "configuration": "./language-configuration.json"
       },
       {
         "id": "jinja-yaml",
-        "aliases": ["Jinja YAML", "jinja-yaml"],
-        "extensions": [".yml.j2", ".yaml.j2", ".yml.jinja2", ".yaml.jinja2", ".yml.jinja", ".yaml.jinja", ".sls"],
+        "aliases": [
+          "Jinja YAML",
+          "jinja-yaml"
+        ],
+        "extensions": [
+          ".yml.j2",
+          ".yaml.j2",
+          ".yml.jinja2",
+          ".yaml.jinja2",
+          ".yml.jinja",
+          ".yaml.jinja",
+          ".sls"
+        ],
         "configuration": "./language-configuration.json"
       },
       {
         "id": "jinja-toml",
-        "aliases": ["Jinja TOML", "jinja-toml"],
-        "extensions": [".toml.j2", ".toml.jinja2", ".toml.jinja"],
+        "aliases": [
+          "Jinja TOML",
+          "jinja-toml"
+        ],
+        "extensions": [
+          ".toml.j2",
+          ".toml.jinja2",
+          ".toml.jinja"
+        ],
         "configuration": "./language-configuration.json"
       },
       {
         "id": "jinja-latex",
-        "aliases": ["Jinja LaTeX", "jinja-latex"],
-        "extensions": [".latex.j2", ".tex.j2", ".latex.jinja2", ".tex.jinja2"],
+        "aliases": [
+          "Jinja LaTeX",
+          "jinja-latex"
+        ],
+        "extensions": [
+          ".latex.j2",
+          ".tex.j2",
+          ".latex.jinja2",
+          ".tex.jinja2"
+        ],
         "configuration": "./language-configuration-latex.json"
       },
       {
         "id": "jinja-lua",
-        "aliases": ["Jinja Lua", "jinja-lua"],
-        "extensions": [".lua.j2", ".lua.jinja2", ".lua.jinja"],
+        "aliases": [
+          "Jinja Lua",
+          "jinja-lua"
+        ],
+        "extensions": [
+          ".lua.j2",
+          ".lua.jinja2",
+          ".lua.jinja"
+        ],
         "configuration": "./language-configuration.json"
       },
       {
         "id": "jinja-properties",
-        "aliases": ["Jinja Properties/ini/Conf", "jinja-properties", "jinja-ini", "jinja-conf"],
-        "extensions": [".properties.j2", ".cfg.j2", ".conf.j2", ".desktop.j2", ".directory.j2", ".ini.j2"],
+        "aliases": [
+          "Jinja Properties/ini/Conf",
+          "jinja-properties",
+          "jinja-ini",
+          "jinja-conf"
+        ],
+        "extensions": [
+          ".properties.j2",
+          ".cfg.j2",
+          ".conf.j2",
+          ".desktop.j2",
+          ".directory.j2",
+          ".ini.j2"
+        ],
         "configuration": "./language-configuration.json"
       },
       {
         "id": "jinja-shell",
-        "aliases": ["Jinja Shell Script", "jinja-shellscript", "jinja-shell", "jinja-sh", "jinja-bash"],
+        "aliases": [
+          "Jinja Shell Script",
+          "jinja-shellscript",
+          "jinja-shell",
+          "jinja-sh",
+          "jinja-bash"
+        ],
         "extensions": [
-          ".sh.j2", ".bash.j2", ".bashrc.j2", ".bash_aliases.j2", ".bash_profile.j2", ".bash_login.j2", ".ebuild.j2",
-          ".install.j2", ".profile.j2", ".bash_logout.j2", ".zsh.j2", ".zshrc.j2", ".zprofile.j2", ".zlogin.j2",
-          ".zlogout.j2", ".zshenv.j2", ".zsh-theme.j2", ".ksh.j2", ".env.jinja", ".env.j2", ".env.jinja2"
+          ".sh.j2",
+          ".bash.j2",
+          ".bashrc.j2",
+          ".bash_aliases.j2",
+          ".bash_profile.j2",
+          ".bash_login.j2",
+          ".ebuild.j2",
+          ".install.j2",
+          ".profile.j2",
+          ".bash_logout.j2",
+          ".zsh.j2",
+          ".zshrc.j2",
+          ".zprofile.j2",
+          ".zlogin.j2",
+          ".zlogout.j2",
+          ".zshenv.j2",
+          ".zsh-theme.j2",
+          ".ksh.j2",
+          ".env.jinja",
+          ".env.j2",
+          ".env.jinja2"
         ],
         "configuration": "./language-configuration.json"
       },
       {
         "id": "jinja-dockerfile",
-        "aliases": ["Jinja Dockerfile", "jinja-dockerfile"],
-        "extensions": [".dockerfile.j2", ".dockerfile.jinja", ".dockerfile.jinja2"],
-        "filenames": ["Dockerfile.j2", "Dockerfile.jinja", "Dockerfile.jinja2"],
+        "aliases": [
+          "Jinja Dockerfile",
+          "jinja-dockerfile"
+        ],
+        "extensions": [
+          ".dockerfile.j2",
+          ".dockerfile.jinja",
+          ".dockerfile.jinja2"
+        ],
+        "filenames": [
+          "Dockerfile.j2",
+          "Dockerfile.jinja",
+          "Dockerfile.jinja2"
+        ],
         "configuration": "./language-configuration.json"
       },
       {
         "id": "jinja-sql",
-        "aliases": ["Jinja SQL", "jinja-sql"],
-        "extensions": [".sql.j2", ".sql.jinja", ".sql.jinja2"],
+        "aliases": [
+          "Jinja SQL",
+          "jinja-sql"
+        ],
+        "extensions": [
+          ".sql.j2",
+          ".sql.jinja",
+          ".sql.jinja2"
+        ],
         "configuration": "./language-configuration.json"
       },
       {
         "id": "jinja",
-        "aliases": ["Jinja Raw", "jinja-raw"],
+        "aliases": [
+          "Jinja Raw",
+          "jinja-raw"
+        ],
         "extensions": [],
         "configuration": "./language-configuration.json"
       },
       {
         "id": "jinja-terraform",
-        "aliases": ["Jinja Terraform", "jinja-terraform"],
-        "extensions": [".tf.j2", ".tf.jinja", ".tf.jinja2", ".tfvars.j2", ".tfvars.jinja", ".tfvars.jinja2"],
+        "aliases": [
+          "Jinja Terraform",
+          "jinja-terraform"
+        ],
+        "extensions": [
+          ".tf.j2",
+          ".tf.jinja",
+          ".tf.jinja2",
+          ".tfvars.j2",
+          ".tfvars.jinja",
+          ".tfvars.jinja2"
+        ],
         "configuration": "./language-configuration.json"
       },
       {
         "id": "jinja-nginx",
-        "aliases": ["Jinja Nginx", "jinja-nginx"],
-        "extensions": [".conf.j2", ".conf.jinja", ".conf.jinja2"],
+        "aliases": [
+          "Jinja Nginx",
+          "jinja-nginx"
+        ],
+        "extensions": [
+          ".conf.j2",
+          ".conf.jinja",
+          ".conf.jinja2"
+        ],
         "configuration": "./language-configuration.json"
       },
       {
         "id": "jinja-groovy",
-        "aliases": ["Jinja Groovy", "jinja-groovy"],
-        "extensions": [".groovy.j2", ".groovy.jinja", ".groovy.jinja2"],
+        "aliases": [
+          "Jinja Groovy",
+          "jinja-groovy"
+        ],
+        "extensions": [
+          ".groovy.j2",
+          ".groovy.jinja",
+          ".groovy.jinja2"
+        ],
         "configuration": "./language-configuration.json"
       },
       {
         "id": "jinja-systemd",
-        "aliases": ["Jinja Systemd Unit File", "jinja-systemd"],
+        "aliases": [
+          "Jinja Systemd Unit File",
+          "jinja-systemd"
+        ],
         "extensions": [
-          ".link.j2", ".link.jinja", ".link.jinja2", ".netdev.j2", ".netdev.jinja", ".netdev.jinja2", ".network.j2",
-          ".network.jinja", ".network.jinja2", ".service.j2", ".service.jinja", ".service.jinja2", ".socket.j2",
-          ".socket.jinja", ".socket.jinja2", ".device.j2", ".device.jinja", ".device.jinja2", ".mount.j2",
-          ".mount.jinja", ".mount.jinja2", ".automount.j2", ".automount.jinja", ".automount.jinja2", ".swap.j2",
-          ".swap.jinja", ".swap.jinja2", ".target.j2", ".target.jinja", ".target.jinja2", ".path.j2", ".path.jinja",
-          ".path.jinja2", ".timer.j2", ".timer.jinja", ".timer.jinja2", ".snapshot.j2", ".snapshot.jinja",
-          ".snapshot.jinja2", ".slice.j2", ".slice.jinja", ".slice.jinja2", ".scope.j2", ".scope.jinja", ".scope.jinja2"
+          ".link.j2",
+          ".link.jinja",
+          ".link.jinja2",
+          ".netdev.j2",
+          ".netdev.jinja",
+          ".netdev.jinja2",
+          ".network.j2",
+          ".network.jinja",
+          ".network.jinja2",
+          ".service.j2",
+          ".service.jinja",
+          ".service.jinja2",
+          ".socket.j2",
+          ".socket.jinja",
+          ".socket.jinja2",
+          ".device.j2",
+          ".device.jinja",
+          ".device.jinja2",
+          ".mount.j2",
+          ".mount.jinja",
+          ".mount.jinja2",
+          ".automount.j2",
+          ".automount.jinja",
+          ".automount.jinja2",
+          ".swap.j2",
+          ".swap.jinja",
+          ".swap.jinja2",
+          ".target.j2",
+          ".target.jinja",
+          ".target.jinja2",
+          ".path.j2",
+          ".path.jinja",
+          ".path.jinja2",
+          ".timer.j2",
+          ".timer.jinja",
+          ".timer.jinja2",
+          ".snapshot.j2",
+          ".snapshot.jinja",
+          ".snapshot.jinja2",
+          ".slice.j2",
+          ".slice.jinja",
+          ".slice.jinja2",
+          ".scope.j2",
+          ".scope.jinja",
+          ".scope.jinja2"
         ],
         "configuration": "./language-configuration.json"
       },
       {
         "id": "jinja-cpp",
-        "aliases": ["Jinja C++", "jinja-cpp"],
-        "extensions": [".c.j2", ".c.jinja", ".c.jinja2", ".cpp.j2", ".cpp.jinja", ".cpp.jinja2", ".h.j2", ".h.jinja", ".h.jinja2"],
+        "aliases": [
+          "Jinja C++",
+          "jinja-cpp"
+        ],
+        "extensions": [
+          ".c.j2",
+          ".c.jinja",
+          ".c.jinja2",
+          ".cpp.j2",
+          ".cpp.jinja",
+          ".cpp.jinja2",
+          ".h.j2",
+          ".h.jinja",
+          ".h.jinja2"
+        ],
         "configuration": "./language-configuration.json"
       },
       {
         "id": "jinja-cisco",
-        "aliases": ["Jinja Cisco Config"],
-        "extensions": [".ios.j2", ".ios.jinja", ".ios.jinja2", ".cisco.j2", ".cisco.jinja", ".cisco.jinja2"],
+        "aliases": [
+          "Jinja Cisco Config"
+        ],
+        "extensions": [
+          ".ios.j2",
+          ".ios.jinja",
+          ".ios.jinja2",
+          ".cisco.j2",
+          ".cisco.jinja",
+          ".cisco.jinja2"
+        ],
         "configuration": "./language-configuration.json"
       },
       {
         "id": "jinja-java",
-        "aliases": ["Jinja Java"],
-        "extensions": [".java.j2", ".java.jinja", ".java.jinja2"],
+        "aliases": [
+          "Jinja Java"
+        ],
+        "extensions": [
+          ".java.j2",
+          ".java.jinja",
+          ".java.jinja2"
+        ],
         "configuration": "./language-configuration.json"
       },
       {
         "id": "jinja-php",
-        "aliases": ["Jinja PHP"],
-        "extensions": [".php.j2", ".php.jinja", ".php.jinja2"],
+        "aliases": [
+          "Jinja PHP"
+        ],
+        "extensions": [
+          ".php.j2",
+          ".php.jinja",
+          ".php.jinja2"
+        ],
         "configuration": "./language-configuration.json"
       },
       {
         "id": "jinja-rust",
-        "aliases": ["Jinja Rust"],
-        "extensions": [".rs.j2", ".rs.jinja", ".rs.jinja2"],
+        "aliases": [
+          "Jinja Rust"
+        ],
+        "extensions": [
+          ".rs.j2",
+          ".rs.jinja",
+          ".rs.jinja2"
+        ],
         "configuration": "./language-configuration.json"
       }
     ],
