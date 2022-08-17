@@ -1,6 +1,10 @@
+.idea/**
+.github/**
+env/**
 .vscode/**
 .vscode-test/**
 .gitignore
 vsc-extension-quickstart.md
 examples/**
 deploy.md
+.pre-commit-config.yaml
