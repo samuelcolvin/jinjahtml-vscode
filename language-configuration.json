@@ -26,5 +26,11 @@
     ["(", ")"],
     ["\"", "\""],
     ["'", "'"]
-  ]
+  ],
+  "folding": {
+    "markers": {
+      "start": "{%\\s*(block|filter|for|if|macro|raw)",
+      "end": "{%\\s*end(block|filter|for|if|macro|raw)\\s*%}"
+    }
+  }
 }
