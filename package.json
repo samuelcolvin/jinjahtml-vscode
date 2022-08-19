@@ -188,7 +188,7 @@
           ".yaml.jinja",
           ".sls"
         ],
-        "configuration": "./language-configuration.json"
+        "configuration": "./language-configuration-yaml.json"
       },
       {
         "id": "jinja-toml",
