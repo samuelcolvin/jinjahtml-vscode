@@ -1,3 +1,9 @@
+# To launch in dev mode
+
+```bash
+code examples/ --extensionDevelopmentPath=.
+```
+
 # To deploy
 
 Make sure `vsce` is installed an up-to-date. (`yarn global add vsce`)
