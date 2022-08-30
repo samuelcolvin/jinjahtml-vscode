@@ -1,5 +1,24 @@
 # Change Log
 
+## [0.18] - 2022-08-30
+
+- Automate deploy, #117
+- Add folding ranges, #114
+- Improve bracket pair highlighting, #115
+- add `.idea`, `.github` and `env` to `.vscodeignore`, fix #96
+- Format code with prettier, #113
+- Add support for Python typing stub `.pyi` files, #111
+- Add support for Cython files, #110
+- Better explain LaTeX syntax, #112
+
+## [0.17] - 2022-03-02
+
+- Add support for rust files, #101
+- Add support for Cisco IOS config files, #95
+- Create add jinja PHP support, #99
+- Add support for breakpoints and c file extensions, #97
+- Fix default Java file associations in documentation, #86
+
 ## [0.16] - 2021-01-14
 
 - Add support for java files by @StoneLabs
