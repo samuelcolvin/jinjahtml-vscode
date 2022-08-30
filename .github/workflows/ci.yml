@@ -34,5 +34,8 @@ jobs:
 
     - run: npm install -g
     - run: npm install -g vsce
+    - run: vsce ls
     - run: vsce package
-    - run: ls -lh
+    - run: vsce ls-publishers
+      env:
+        VSCE_PAT: ${{ secrets.VSCE_PAT }}
