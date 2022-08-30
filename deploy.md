@@ -7,6 +7,7 @@ code examples/ --extensionDevelopmentPath=.
 # To deploy
 
 Update:
-* `CHANGELOG.md`
-* `package.json::version`
-* create a github release
+
+- `CHANGELOG.md`
+- `package.json::version`
+- create a github release

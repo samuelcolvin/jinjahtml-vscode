@@ -35,3 +35,4 @@ jobs:
     - run: npm install -g
     - run: npm install -g vsce
     - run: vsce package
+    - run: ls -lh
