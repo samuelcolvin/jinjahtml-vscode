@@ -8,3 +8,4 @@ vsc-extension-quickstart.md
 examples/**
 deploy.md
 .pre-commit-config.yaml
+.prettierignore

@@ -6,9 +6,8 @@ code examples/ --extensionDevelopmentPath=.
 
 # To deploy
 
-Make sure `vsce` is installed an up-to-date. (`yarn global add vsce`)
+Update:
 
-Then:
-
-    vsce package
-    vsce publish
+- `CHANGELOG.md`
+- `package.json::version`
+- create a github release
