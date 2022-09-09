@@ -40,6 +40,9 @@
   "devDependencies": {
     "prettier": "2.7.1"
   },
+  "extensionDependencies": [
+    "vscode.html-language-features"
+  ],
   "contributes": {
     "languages": [
       {
@@ -488,6 +491,12 @@
           ".rs.jinja2"
         ],
         "configuration": "./language-configuration.json"
+      }
+    ],
+    "htmlLanguageParticipants": [
+      {
+        "languageId": "jinja-html",
+        "autoInsert": true
       }
     ],
     "grammars": [
