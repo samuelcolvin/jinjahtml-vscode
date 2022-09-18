@@ -24,13 +24,10 @@
     "type": "git",
     "url": "https://github.com/samuelcolvin/jinjahtml-vscode.git"
   },
-  "main": "./out/extension.js",
+  "main": "./src/extension.js",
   "scripts": {
     "format": "prettier --write '**/*.{js,json,md}'",
-    "lint": "prettier --check '**/*.{js,json,md}'",
-    "build": "tsc -p ./",
-    "watch": "tsc -watch -p ./",
-    "vscode:prepublish": "npm run build"
+    "lint": "prettier --check '**/*.{js,json,md}'"
   },
   "prettier": {
     "singleQuote": true,
@@ -42,10 +39,7 @@
     "arrowParens": "avoid"
   },
   "devDependencies": {
-    "@types/node": "^18.7.18",
-    "@types/vscode": "^1.22.0",
-    "prettier": "2.7.1",
-    "typescript": "^4.8.3"
+    "prettier": "2.7.1"
   },
   "activationEvents": [
     "onLanguage:jinja-html"

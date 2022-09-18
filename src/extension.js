@@ -1,8 +1,8 @@
-import * as vscode from 'vscode'
+const vscode = require('vscode')
 
 // This hack is necessary to ensure that the vscode.html-language-features extension is activated in order to enable
 // htmlLanguageParticipants support. Please see https://github.com/microsoft/vscode/issues/160585 for more info.
-export async function activate() {
+async function activate() {
   const htmlExtension = vscode.extensions.getExtension('vscode.html-language-features')
 
   if (!htmlExtension) {
@@ -15,4 +15,8 @@ export async function activate() {
   }
 
   await htmlExtension?.activate()
+}
+
+module.exports = {
+  activate
 }
