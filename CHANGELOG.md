@@ -2,8 +2,8 @@
 
 ## [0.19] - 2022-09-30
 
-* Enable VSCode HTML language participation by @devmattrick, #118 🎉🎉🎉
-* Add hcl file endings for terraform/HashiCorp configuration language by @peschmae, #120
+- Enable VSCode HTML language participation by @devmattrick, #118 🎉🎉🎉
+- Add hcl file endings for terraform/HashiCorp configuration language by @peschmae, #120
 
 ## [0.18] - 2022-08-30
 
