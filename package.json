@@ -24,6 +24,7 @@
     "type": "git",
     "url": "https://github.com/samuelcolvin/jinjahtml-vscode.git"
   },
+  "main": "./src/extension.js",
   "scripts": {
     "format": "prettier --write '**/*.{js,json,md}'",
     "lint": "prettier --check '**/*.{js,json,md}'"
@@ -40,6 +41,9 @@
   "devDependencies": {
     "prettier": "2.7.1"
   },
+  "activationEvents": [
+    "onLanguage:jinja-html"
+  ],
   "contributes": {
     "languages": [
       {
@@ -495,6 +499,12 @@
           ".rs.jinja2"
         ],
         "configuration": "./language-configuration.json"
+      }
+    ],
+    "htmlLanguageParticipants": [
+      {
+        "languageId": "jinja-html",
+        "autoInsert": true
       }
     ],
     "grammars": [
