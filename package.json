@@ -326,7 +326,11 @@
         "id": "jinja-terraform",
         "aliases": [
           "Jinja Terraform",
-          "jinja-terraform"
+          "jinja-terraform",
+          "Jinja-HCL",
+          "jinja-hcl",
+          "Jinja-Hashicorp",
+          "jinja-hashicorp"
         ],
         "extensions": [
           ".tf.j2",
@@ -334,7 +338,10 @@
           ".tf.jinja2",
           ".tfvars.j2",
           ".tfvars.jinja",
-          ".tfvars.jinja2"
+          ".tfvars.jinja2",
+          ".hcl.j2",
+          ".hcl.jinja",
+          ".hcl.jinja2"
         ],
         "configuration": "./language-configuration.json"
       },

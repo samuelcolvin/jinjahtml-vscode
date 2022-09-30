@@ -131,11 +131,11 @@ Jinja cython templates: system name `jinja-cy`.
 
 Default file associations: `.pyx.j2`, `.pyx.jinja`, `.pyx.jinja2`, `.pxd.j2`, `.pxd.jinja`, `.pxd.jinja2`, `.pxi.j2`, `.pxi.jinja` and `.pxi.jinja2`.
 
-### Jinja Terraform
+### Jinja Terraform / HashiCorp configuration language
 
 Jinja Terraform templates: system name `jinja-terraform`.
 
-Default file associations: `.tf.j2`, `.tf.jinja`, `.tf.jinja2`, `.tfvars.j2`, `.tfvars.jinja`, and `.tfvars.jinja2`.
+Default file associations: `.tf.j2`, `.tf.jinja`, `.tf.jinja2`, `.tfvars.j2`, `.tfvars.jinja`, `.tfvars.jinja2`, `.hcl.j2`, `.hcl.jinja` and `.hcl.jinja2`.
 
 ### Jinja Nginx
 
