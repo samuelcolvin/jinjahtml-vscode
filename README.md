@@ -48,7 +48,7 @@ Default file associations: `.md.jinja`, `.md.jinja2` and `.md.j2`.
 
 Jinja YAML (sls) templates: system name `jinja-yaml`.
 
-Default file associations: `.yml.j2`, `.yaml.j2` and `.sls`.
+Default file associations: `.yml.j2`, `.yaml.j2`, `.yaml.jinja`, `.yml.jinja`, and `.sls`.
 
 ### Jinja TOML
 
