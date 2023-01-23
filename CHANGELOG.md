@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.20] - 2023-01-23
+
+- Support `.yml.jinja`/`.yaml.jinja` file extensions, #126
+
 ## [0.19] - 2022-09-30
 
 - Enable VSCode HTML language participation by @devmattrick, #118 🎉🎉🎉
