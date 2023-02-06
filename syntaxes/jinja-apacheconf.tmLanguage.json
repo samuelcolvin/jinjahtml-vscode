@@ -1,0 +1,13 @@
+{
+  "name": "jinja-apacheconf",
+  "scopeName": "source.apacheconf.jinja",
+  "comment": "Jinja Apache Templates",
+  "patterns": [
+    {
+      "include": "source.jinja"
+    },
+    {
+      "include": "source.apacheconf"
+    }
+  ]
+}

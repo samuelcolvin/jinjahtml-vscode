@@ -363,6 +363,19 @@
         "configuration": "./language-configuration.json"
       },
       {
+        "id": "jinja-apacheconf",
+        "aliases": [
+          "Jinja Apache",
+          "jinja-apacheconf"
+        ],
+        "extensions": [
+          ".conf.j2",
+          ".conf.jinja",
+          ".conf.jinja2"
+        ],
+        "configuration": "./language-configuration.json"
+      },
+      {
         "id": "jinja-groovy",
         "aliases": [
           "Jinja Groovy",
@@ -614,6 +627,11 @@
         "path": "./syntaxes/jinja-nginx.tmLanguage.json"
       },
       {
+        "language": "jinja-apacheconf",
+        "scopeName": "source.apacheconf.jinja",
+        "path": "./syntaxes/jinja-apacheconf.tmLanguage.json"
+      },
+      {
         "language": "jinja-systemd",
         "scopeName": "source.systemd.jinja",
         "path": "./syntaxes/jinja-systemd.tmLanguage.json"
@@ -711,6 +729,9 @@
       },
       {
         "language": "jinja-nginx"
+      },
+      {
+        "language": "jinja-apacheconf"
       },
       {
         "language": "jinja-systemd"
