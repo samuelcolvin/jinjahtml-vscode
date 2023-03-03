@@ -2,7 +2,7 @@
   "name": "jinja-yaml",
   "scopeName": "text.yaml.jinja",
   "comment": "Jinja YAML Templates",
-  "fileTypes": ["yml.j2", "yaml.j2", "sls"],
+  "fileTypes": ["yml.j2", "yaml.j2", "yml.jinja", "yaml.jinja", "sls"],
   "firstLineMatch": "^{% extends [\"'][^\"']+[\"'] %}",
   "patterns": [
     {
