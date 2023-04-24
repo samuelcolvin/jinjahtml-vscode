@@ -4,7 +4,7 @@
   "comment": "Jinja Markdown Templates",
   "firstLineMatch": "^{% extends [\"'][^\"']+[\"'] %}",
   "foldingStartMarker": "(<(?i:(head|table|tr|div|style|script|ul|ol|form|dl))\\b.*?>|{%\\s*(block|filter|for|if|macro|raw))",
-  "foldingStopMarker": "(</(?i:(head|table|tr|div|style|script|ul|ol|form|dl))\\b.*?>|{%\\s*(endblock|endfilter|endfor|endif|endmacro|endraw)\\s*%})",
+  "foldingStopMarker": "(</(?i:(head|table|tr|div|style|script|ul|ol|form|dl))\\b.*?>|{%\\s*(endblock\\s+[a-zA-Z_][a-zA-Z0-9_]*|endfilter|endfor|endif|endmacro|endraw)\\s*%})",
   "patterns": [
     {
       "include": "source.jinja"

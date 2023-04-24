@@ -3,7 +3,7 @@
   "scopeName": "source.jinja",
   "comment": "Jinja Templates",
   "foldingStartMarker": "({%\\s*(block|filter|for|if|macro|raw))",
-  "foldingStopMarker": "({%\\s*(endblock|endfilter|endfor|endif|endmacro|endraw)\\s*%})",
+  "foldingStopMarker": "({%\\s*(endblock\\s+[a-zA-Z_][a-zA-Z0-9_]*|endfilter|endfor|endif|endmacro|endraw)\\s*%})",
   "patterns": [
     {
       "begin": "({%)\\s*(raw)\\s*(%})",

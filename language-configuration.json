@@ -35,7 +35,7 @@
   "folding": {
     "markers": {
       "start": "{%\\s*(block|filter|for|if|macro|raw)",
-      "end": "{%\\s*end(block|filter|for|if|macro|raw)\\s*%}"
+      "end": "{%\\s*end(block\\s+[a-zA-Z_][a-zA-Z0-9_]*|filter|for|if|macro|raw)\\s*%}"
     }
   }
 }
