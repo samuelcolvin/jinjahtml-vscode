@@ -253,6 +253,38 @@
         "configuration": "./language-configuration.json"
       },
       {
+        "id": "jinja-robot",
+        "aliases": [
+          "Jinja Robot Framework for RF LS",
+          "jinja-robot"
+        ],
+        "extensions": [
+          ".robot.j2",
+          ".robot.jinja",
+          ".robot.jinja2",
+          ".resource.j2",
+          ".resource.jinja",
+          ".resource.jinja2"
+        ],
+        "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "jinja-robotframework",
+        "aliases": [
+          "Jinja Robot Framework",
+          "jinja-robotframework"
+        ],
+        "extensions": [
+          ".robot.j2",
+          ".robot.jinja",
+          ".robot.jinja2",
+          ".resource.j2",
+          ".resource.jinja",
+          ".resource.jinja2"
+        ],
+        "configuration": "./language-configuration.json"
+      },
+      {
         "id": "jinja-shell",
         "aliases": [
           "Jinja Shell Script",
@@ -549,6 +581,16 @@
         "path": "./syntaxes/jinja-ruby.tmLanguage.json"
       },
       {
+        "language": "jinja-robot",
+        "scopeName": "source.robot.jinja",
+        "path": "./syntaxes/jinja-robot.tmLanguage.json"
+      },
+      {
+        "language": "jinja-robotframework",
+        "scopeName": "source.robotframework.jinja",
+        "path": "./syntaxes/jinja-robotframework.tmLanguage.json"
+      },
+      {
         "language": "jinja-js",
         "scopeName": "source.js.jinja",
         "path": "./syntaxes/jinja-js.tmLanguage.json"
@@ -648,6 +690,16 @@
       {
         "language": "jinja-html",
         "scopeName": "text.html.jinja",
+        "path": "./snippets/django-snippets.json"
+      },
+      {
+        "language": "jinja-robotframework",
+        "scopeName": "source.robotframework.jinja",
+        "path": "./snippets/django-snippets.json"
+      },
+      {
+        "language": "jinja-robot",
+        "scopeName": "source.robot.jinja",
         "path": "./snippets/django-snippets.json"
       }
     ],

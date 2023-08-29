@@ -1,0 +1,13 @@
+{
+  "name": "jinja-robot",
+  "scopeName": "source.robot.jinja",
+  "comment": "Jinja Robot Framework Templates for RF LS",
+  "patterns": [
+    {
+      "include": "source.jinja"
+    },
+    {
+      "include": "source.robot"
+    }
+  ]
+}

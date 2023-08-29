@@ -1,0 +1,13 @@
+{
+  "name": "jinja-robotframework",
+  "scopeName": "source.robotframework.jinja",
+  "comment": "Jinja Robot Framework Templates",
+  "patterns": [
+    {
+      "include": "source.jinja"
+    },
+    {
+      "include": "source.robotframework"
+    }
+  ]
+}
