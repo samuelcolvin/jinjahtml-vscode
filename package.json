@@ -178,6 +178,19 @@
         "configuration": "./language-configuration.json"
       },
       {
+        "id": "jinja-ts",
+        "aliases": [
+          "Jinja TypeScript",
+          "Jinja TS",
+          "jinja-ts"
+        ],
+        "extensions": [
+          "ts.j2",
+          "ts.jinja2"
+        ],
+        "configuration": "./language-configuration.json"
+      },
+      {
         "id": "jinja-yaml",
         "aliases": [
           "Jinja YAML",
@@ -554,6 +567,11 @@
         "path": "./syntaxes/jinja-js.tmLanguage.json"
       },
       {
+        "language": "jinja-ts",
+        "scopeName": "source.ts.jinja",
+        "path": "./syntaxes/jinja-ts.tmLanguage.json"
+      },
+      {
         "language": "jinja-yaml",
         "scopeName": "text.yaml.jinja",
         "path": "./syntaxes/jinja-yaml.tmLanguage.json"
@@ -678,6 +696,9 @@
       },
       {
         "language": "jinja-js"
+      },
+      {
+        "language": "jinja-ts"
       },
       {
         "language": "jinja-yaml"
