@@ -167,6 +167,18 @@ Jinja Java templates: system name `jinja-java`.
 
 Default file associations: `.java.j2`, `.java.jinja`, and `.java.jinja2`.
 
+### Jinja JavaScript
+
+Jinja JavaScript templates: system name `jinja-js`.
+
+Default file associations: `.js.j2` and `.js.jinja2`.
+
+### Jinja TypeScript
+
+Jinja TypeScript templates: system name `jinja-ts`.
+
+Default file associations: `.ts.j2` and `.ts.jinja2`.
+
 ### Jinja PHP
 
 Jinja PHP templates: system name `jinja-php`.
