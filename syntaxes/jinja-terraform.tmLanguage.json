@@ -7,7 +7,7 @@
       "include": "source.jinja"
     },
     {
-      "include": "source.terraform"
+      "include": "source.hcl.terraform"
     }
   ]
 }
