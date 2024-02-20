@@ -32,12 +32,14 @@
     ["[", "]"],
     ["(", ")"],
     ["\"", "\""],
-    ["'", "'"]
+    ["'", "'"],
+    ["*", "*"],
+    ["#", "#"]
   ],
   "folding": {
     "markers": {
-      "start": "\\(\\(\\*\\s*(block|filter|for|if|macro|raw)",
-      "end": "\\(\\(\\*\\s*end(block|filter|for|if|macro|raw)\\s*\\*\\)\\)"
+      "start": "\\(\\(\\*\\s*(autoescape|block|call|filter|for|if|macro|raw|set(?!\\s+[a-zA-Z_][a-zA-Z0-9_]*\\s*=)|with)\\b",
+      "end": "\\(\\(\\*\\s*end(autoescape|block|call|filter|for|if|macro|raw|set|with)\\b"
     }
   }
 }
