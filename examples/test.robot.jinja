@@ -1,0 +1,5 @@
+*** Test Cases ***
+{% for tc in testcases %}
+{{tc.name}}
+    Log To Console   Hallo   {{tc.data.firstname}}
+{% endfor %}
