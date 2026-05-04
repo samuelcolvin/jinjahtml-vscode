@@ -103,6 +103,19 @@
         "configuration": "./language-configuration.json"
       },
       {
+				"id": "jinja-matlab",
+				"aliases": [
+					"Jinja Matlab",
+					"jinja-matlab"
+				],
+				"extensions": [
+					"m.jinja",
+					"m.jinja2",
+					"m.j2"
+				],
+				"configuration": "./language-configuration.json"
+			},
+			{
         "id": "jinja-md",
         "aliases": [
           "Jinja Markdown",
@@ -542,6 +555,11 @@
         "path": "./syntaxes/jinja-json.tmLanguage.json"
       },
       {
+				"language": "jinja-matlab",
+				"scopeName": "source.matlab.jinja",
+				"path": "./syntaxes/jinja-matlab.tmLanguage.json"
+			},
+			{
         "language": "jinja-md",
         "scopeName": "text.html.markdown.jinja",
         "path": "./syntaxes/jinja-md.tmLanguage.json"
@@ -683,6 +701,9 @@
         "language": "jinja-json"
       },
       {
+				"language": "jinja-matlab"
+			},
+			{
         "language": "jinja-md"
       },
       {
