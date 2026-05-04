@@ -1,0 +1,59 @@
+function r = {{scriptName}}() 
+% {{scriptName}} This is an example script to query the API. 
+
+hostname = ['{{hostname}}', '/api/v1'];
+
+%  Modify the variables below as needed. 
+{% for k,v in params.items() if v -%}
+{{k}} = '{{v}}';
+{% endfor -%}
+
+% Combine the variables into the final query. 
+queryString = strjoin({hostname, {{ params.keys()|join(', ')}} }, '/');
+
+% Set web options to a longer timeout and tell the server to compress the data. 
+opts = weboptions('Timeout', 10000, 'KeyName', 'Accept-Encoding', 'KeyValue', 'gzip');
+
+tic; 
+
+% Get the results into a Matlab object. This is usually an array of structs. 
+data = webread(queryString, opts);
+qTime = toc; 
+
+disp(['Query took ' sprintf('%.03f', qTime) ' seconds. ' ]);
+
+{% set valFields = ['values', 'cal_vals'] -%}
+{% if params['endpoint'] == 'agg' -%}
+    {% set valFields = params['aggFcns'].split(',') -%}
+{% elif params['endpoint'] == 'trend' -%}
+    {% set valFields = ['min', 'max', 'avg'] -%}
+{% endif -%} 
+
+{% set structFields = [] -%}
+{% set legendFields = [] -%}
+
+{# This is how we have to append a string to each value in an array. #}
+{% for f in valFields -%}
+    {% set tmp = structFields.append("'" ~ f ~ "'" ~ ', cell(1, sens_count)') -%} 
+{% endfor -%} 
+
+% The data is returned as an array of objects, where each object represents a particular timespan. 
+% We can reconstruct a more useful array here: 
+res = [data.results]
+
+% Pre-allocate array of structs.
+final_res = struct('key', cell(1, sens_count), 'timestamps', cell(1, sens_count), {{ structFields|join(', ') }}); 
+
+tic; 
+for n = 1:size(res,1)
+  % Partial result arrays are concatenated together then plotted. 
+  ts = datetime(vertcat(res(n,:).timestamps));
+{% for f in valFields -%}
+  {{ f }} = vertcat(res(n, :).{{f}});
+  {% set tmp = legendFields.append("[" ~ 'res(n,1).key ' ~ "' " ~  f ~ "']") -%}
+{% endfor -%}
+
+  final_res(n) = struct('key', res(n,1).key, 'timestamps', ts, {{varFields|join(', ')}}); 
+
+  p = plot({{tsFields|join(', ')}}); 
+end 
