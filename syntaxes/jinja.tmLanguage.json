@@ -2,8 +2,8 @@
   "name": "jinja",
   "scopeName": "source.jinja",
   "comment": "Jinja Templates",
-  "foldingStartMarker": "({%\\s*(block|filter|for|if|macro|raw))",
-  "foldingStopMarker": "({%\\s*(endblock|endfilter|endfor|endif|endmacro|endraw)\\s*%})",
+  "foldingStartMarker": "^\\s*({%\\s*(block|filter|for|if|macro|raw).*%})",
+  "foldingStopMarker": "^\\s*({%\\s*(endblock|endfilter|endfor|endif|endmacro|endraw)\\s*%})",
   "patterns": [
     {
       "begin": "({%)\\s*(raw)\\s*(%})",
