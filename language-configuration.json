@@ -38,7 +38,7 @@
   "folding": {
     "markers": {
       "start": "^\\s*{%[-+]?\\s*(block|filter|for|if|macro|raw)\\b.*%}",
-      "end": "^\\s*{%[-+]?\\s*end(block|filter|for|if|macro|raw)\\s*[-+]?%}"
+      "end": "^\\s*{%[-+]?\\s*end(block(\\s+[a-zA-Z_][a-zA-Z0-9_]*)?|filter|for|if|macro|raw)\\s*[-+]?%}"
     }
   },
   "onEnterRules": [
