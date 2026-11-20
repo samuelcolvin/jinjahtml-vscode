@@ -109,9 +109,9 @@
           "jinja-matlab"
         ],
         "extensions": [
-          "m.jinja",
-          "m.jinja2",
-          "m.j2"
+          ".m.jinja",
+          ".m.jinja2",
+          ".m.j2"
         ],
         "configuration": "./language-configuration.json"
       },
@@ -135,12 +135,12 @@
           "jinja-py"
         ],
         "extensions": [
-          "py.j2",
-          "py.jinja",
-          "py.jinja2",
-          "pyi.j2",
-          "pyi.jinja",
-          "pyi.jinja2"
+          ".py.j2",
+          ".py.jinja",
+          ".py.jinja2",
+          ".pyi.j2",
+          ".pyi.jinja",
+          ".pyi.jinja2"
         ],
         "configuration": "./language-configuration.json"
       },
@@ -151,15 +151,15 @@
           "jinja-cy"
         ],
         "extensions": [
-          "pyx.j2",
-          "pyx.jinja",
-          "pyx.jinja2",
-          "pxd.j2",
-          "pxd.jinja",
-          "pxd.jinja2",
-          "pxi.j2",
-          "pxi.jinja",
-          "pxi.jinja2"
+          ".pyx.j2",
+          ".pyx.jinja",
+          ".pyx.jinja2",
+          ".pxd.j2",
+          ".pxd.jinja",
+          ".pxd.jinja2",
+          ".pxi.j2",
+          ".pxi.jinja",
+          ".pxi.jinja2"
         ],
         "configuration": "./language-configuration.json"
       },
@@ -170,10 +170,10 @@
           "jinja-rb"
         ],
         "extensions": [
-          "rb.j2",
-          "rbw.j2",
-          "rb.jinja2",
-          "rbw.jinja2"
+          ".rb.j2",
+          ".rbw.j2",
+          ".rb.jinja2",
+          ".rbw.jinja2"
         ],
         "configuration": "./language-configuration.json"
       },
@@ -185,8 +185,8 @@
           "jinja-js"
         ],
         "extensions": [
-          "js.j2",
-          "js.jinja2"
+          ".js.j2",
+          ".js.jinja2"
         ],
         "configuration": "./language-configuration.json"
       },
@@ -198,8 +198,8 @@
           "jinja-ts"
         ],
         "extensions": [
-          "ts.j2",
-          "ts.jinja2"
+          ".ts.j2",
+          ".ts.jinja2"
         ],
         "configuration": "./language-configuration.json"
       },
