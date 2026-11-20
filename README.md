@@ -159,7 +159,7 @@ Default file associations: `.link.j2`, `.link.jinja`, `.link.jinja2`, `.netdev.j
 
 Jinja C++ templates: system name `jinja-cpp`.
 
-Default file associations: `.c.j2`, `.c.jinja`, `.c.jinja2`, `.cpp.jinja`, `.cpp.jinja2`,`.cpp.j2`,`.h.jinja`, `.h.jinja2`, and `.h.j2`.
+Default file associations: `.c.j2`, `.c.jinja`, `.c.jinja2`, `.cpp.jinja`, `.cpp.jinja2`, `.cpp.j2`, `.h.jinja`, `.h.jinja2`, `.h.j2`, `.hpp.jinja`, `.hpp.jinja2` and `.hpp.j2`.
 
 ### Jinja Java
 

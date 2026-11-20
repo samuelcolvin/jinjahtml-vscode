@@ -471,7 +471,10 @@
           ".cpp.jinja2",
           ".h.j2",
           ".h.jinja",
-          ".h.jinja2"
+          ".h.jinja2",
+          ".hpp.j2",
+          ".hpp.jinja",
+          ".hpp.jinja2"
         ],
         "configuration": "./language-configuration.json"
       },
