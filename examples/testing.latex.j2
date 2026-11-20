@@ -1,0 +1,31 @@
+((* extends "base.latex" *))
+
+((* include "other.latex" ignore missing without context *))
+
+((* if test and ('a' ~ 'b') is not none *))
+((* macro func(arg1, arg2) *))
+((* for x in whatever *))
+((( x | fancy_filter )))
+((* set test = true *))
+((* endfor *))
+((* endmacro *))
+((* endif *))
+
+((* import 'templates/something.j2' as sth *))
+((* from 'funcs.latex.j2' import func as foo, bar  *))
+
+((* block test *)) test ((* endblock *))
+
+((* set reply | wordwrap *))
+Regarding your message:
+((( message )))
+((* endset *))
+
+((* block main *))
+    ((* set who_is_it = 'world' *))
+    hello ((( who_is_it | capitalize )))!
+    ((* raw -*))
+        ((* set who_is_it = 'world' *))
+        hello ((( who_is_it | capitalize )))!
+    ((* endraw *))
+((* endblock *))
