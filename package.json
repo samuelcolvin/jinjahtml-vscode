@@ -349,7 +349,11 @@
           "Jinja Raw",
           "jinja-raw"
         ],
-        "extensions": [],
+        "extensions": [
+          ".raw.j2",
+          ".raw.jinja",
+          ".raw.jinja2"
+        ],
         "configuration": "./language-configuration.json"
       },
       {

@@ -12,7 +12,7 @@ Introduces syntax highlighting into vscode for the following languages:
 
 Raw jinja templates: system name `jinja`.
 
-no file default associations.
+Default file associations: `.raw.jinja`, `.raw.jinja2`, `raw.j2`.
 
 ### Jinja HTML
 
