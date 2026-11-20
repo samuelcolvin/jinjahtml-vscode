@@ -1,0 +1,16 @@
+{
+  "name": "jinja-robot",
+  "scopeName": "source.robot.jinja",
+  "comment": "Jinja Robot Framework Templates, works with either the RobotCode (source.robotframework) or Robot Framework Language Server (source.robot) grammar",
+  "patterns": [
+    {
+      "include": "source.jinja"
+    },
+    {
+      "include": "source.robotframework"
+    },
+    {
+      "include": "source.robot"
+    }
+  ]
+}
