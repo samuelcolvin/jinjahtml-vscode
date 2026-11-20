@@ -1,9 +1,23 @@
 # Change Log
 
-## [0.21] - 2026-05-04
+## [0.21] - 2026-11-20
 
-- Support `.m.jinja` file extensions, #179
+- Add MATLAB template support (`.m.jinja` etc.) by @jakehedlund, #180, #179
+- Add Robot Framework template support by @mardukbp, #142
+- Add Apache conf template support by @floriangosse, #127
+- Add `.hpp.j2`/`.hpp.jinja`/`.hpp.jinja2` to Jinja C++ by @BrunoB81HK, #161
+- Add `.raw.j2`/`.raw.jinja`/`.raw.jinja2` default associations for raw Jinja by @Skinner927, #170
+- Add `.js.jinja`, `.ts.jinja`, `.rb.jinja` and `.rbw.jinja` default associations
+- Fix default file associations missing a leading dot, e.g. `hosts.j2` was treated as TypeScript
+- Fix Terraform scope name by @sebthom, #149
+- Improve jinja-latex highlighting and folding by @choeppler, #122
+- Use `((=` `=))` for comments in jinja-latex as documented, plus auto-closing pairs with spaces and whitespace control
+  in folding markers by @noamzaks, #171
+- Support named block end tags (`{% endblock name %}`) in folding by @bobbwest, #135
+- Auto-indent on enter between HTML tags and Jinja blocks by @ferchorduy, #183
+- Fix snippet tabstops by @ferchorduy, #184
 - Fix scroll-map view, #168
+- More examples by @Sogolumbo, #173
 
 ## [0.20] - 2023-01-23
 

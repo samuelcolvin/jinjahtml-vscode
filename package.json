@@ -2,7 +2,7 @@
   "name": "jinjahtml",
   "displayName": "Better Jinja",
   "description": "Syntax highlighting for jinja(2) including HTML, Markdown, YAML, Ruby and LaTeX templates",
-  "version": "0.20.0",
+  "version": "0.21.0",
   "publisher": "samuelcolvin",
   "author": "Samuel Colvin",
   "engines": {
@@ -171,8 +171,10 @@
         ],
         "extensions": [
           ".rb.j2",
-          ".rbw.j2",
+          ".rb.jinja",
           ".rb.jinja2",
+          ".rbw.j2",
+          ".rbw.jinja",
           ".rbw.jinja2"
         ],
         "configuration": "./language-configuration.json"
@@ -186,6 +188,7 @@
         ],
         "extensions": [
           ".js.j2",
+          ".js.jinja",
           ".js.jinja2"
         ],
         "configuration": "./language-configuration.json"
@@ -199,6 +202,7 @@
         ],
         "extensions": [
           ".ts.j2",
+          ".ts.jinja",
           ".ts.jinja2"
         ],
         "configuration": "./language-configuration.json"

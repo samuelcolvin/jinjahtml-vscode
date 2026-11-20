@@ -1,6 +1,7 @@
 # Jinja Template Highlighting
 
-Syntax highlighting for jinja(2) including HTML, Markdown, YAML and other templates.
+Syntax highlighting, snippets, folding and bracket matching for Jinja (and Django) templates in VS Code,
+including HTML, Markdown, YAML, LaTeX and many other languages.
 
 ![IDE](https://raw.githubusercontent.com/samuelcolvin/jinjahtml-vscode/main/screenshot.png)
 
@@ -12,7 +13,7 @@ Introduces syntax highlighting into vscode for the following languages:
 
 Raw jinja templates: system name `jinja`.
 
-Default file associations: `.raw.jinja`, `.raw.jinja2`, `raw.j2`.
+Default file associations: `.raw.jinja`, `.raw.jinja2` and `.raw.j2`.
 
 ### Jinja HTML
 
@@ -22,13 +23,13 @@ Default file associations: `.jinja`, `.jinja2`, `.j2` and `.html.j2`.
 
 ### Jinja XML
 
-Jinja HTML templates: system name `jinja-xml`.
+Jinja XML templates: system name `jinja-xml`.
 
 Default file associations: `.xml.jinja`, `.xml.jinja2`, `.xml.j2`.
 
 ### Jinja CSS
 
-Jinja HTML templates: system name `jinja-css`.
+Jinja CSS templates: system name `jinja-css`.
 
 Default file associations: `.css.jinja`, `.css.jinja2`, `.css.j2`.
 
@@ -36,7 +37,7 @@ Default file associations: `.css.jinja`, `.css.jinja2`, `.css.j2`.
 
 Jinja JSON templates: system name `jinja-json`.
 
-Default file associations: `.json.jinja`, `.json.jinja2`, `.json.j2`.
+Default file associations: `.json.jinja`, `.json.jinja2`, `.json.j2`, `.code-workspace.jinja`, `.code-workspace.jinja2` and `.code-workspace.j2`.
 
 ### Jinja Markdown
 
@@ -48,7 +49,7 @@ Default file associations: `.md.jinja`, `.md.jinja2` and `.md.j2`.
 
 Jinja YAML (sls) templates: system name `jinja-yaml`.
 
-Default file associations: `.yml.j2`, `.yaml.j2`, `.yaml.jinja`, `.yml.jinja`, and `.sls`.
+Default file associations: `.yml.j2`, `.yaml.j2`, `.yml.jinja`, `.yaml.jinja`, `.yml.jinja2`, `.yaml.jinja2` and `.sls`.
 
 ### Jinja TOML
 
@@ -105,6 +106,8 @@ Default file associations (same as for the `shell` language with `.j2` appended)
 `.bash_login.j2`, `.ebuild.j2`, `.install.j2`, `.profile.j2`, `.bash_logout.j2`, `.zsh.j2`, `.zshrc.j2`,
 `.zprofile.j2`, `.zlogin.j2`, `.zlogout.j2`, `.zshenv.j2`, `.zsh-theme.j2` and `.ksh.j2`.
 
+Also `.env.j2`, `.env.jinja` and `.env.jinja2`.
+
 ### Dockerfiles
 
 Dockerfile templates: system name `jinja-dockerfile`.
@@ -148,8 +151,10 @@ Default file associations: `.conf.j2`, `.conf.jinja`, and `.conf.jinja2`.
 Jinja Apache Conf templates: system name `jinja-apacheconf`, requires an extension providing the `source.apacheconf`
 grammar, e.g. [Apache Conf](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-apache).
 
-Default file associations: `.htaccess.j2`, `.htaccess.jinja`, and `.htaccess.jinja2`. `.conf.j2` etc. are associated
-with Jinja Nginx, use `files.associations` to use Jinja Apache for those files.
+Default file associations: `.htaccess.j2`, `.htaccess.jinja` and `.htaccess.jinja2`.
+
+(`.conf.j2` etc. are associated with Jinja Nginx, see [Extra File Associations](#extra-file-associations) to use
+Jinja Apache for those files instead.)
 
 ### Jinja Groovy
 
@@ -179,13 +184,13 @@ Default file associations: `.java.j2`, `.java.jinja`, and `.java.jinja2`.
 
 Jinja JavaScript templates: system name `jinja-js`.
 
-Default file associations: `.js.j2` and `.js.jinja2`.
+Default file associations: `.js.j2`, `.js.jinja` and `.js.jinja2`.
 
 ### Jinja TypeScript
 
 Jinja TypeScript templates: system name `jinja-ts`.
 
-Default file associations: `.ts.j2` and `.ts.jinja2`.
+Default file associations: `.ts.j2`, `.ts.jinja` and `.ts.jinja2`.
 
 ### Jinja PHP
 
@@ -203,7 +208,27 @@ Default file associations: `.ios.j2`, `.ios.jinja`, `.ios.jinja2`, `.cisco.j2`, 
 
 Jinja Rust templates: system name `jinja-rust`.
 
-Default file associations: `.rs.j2`, `.rs.jinja`, and `.rs.jinja2`
+Default file associations: `.rs.j2`, `.rs.jinja` and `.rs.jinja2`.
+
+### Jinja Ruby
+
+Jinja Ruby templates: system name `jinja-rb`.
+
+Default file associations: `.rb.j2`, `.rb.jinja`, `.rb.jinja2`, `.rbw.j2`, `.rbw.jinja` and `.rbw.jinja2`.
+
+### Jinja MATLAB
+
+Jinja MATLAB templates: system name `jinja-matlab`.
+
+Default file associations: `.m.j2`, `.m.jinja` and `.m.jinja2`.
+
+### Jinja Robot Framework
+
+Jinja Robot Framework templates: system name `jinja-robot`, works with the grammar from either
+[RobotCode](https://marketplace.visualstudio.com/items?itemName=d-biehl.robotcode) or
+[Robot Framework Language Server](https://marketplace.visualstudio.com/items?itemName=robocorp.robotframework-lsp).
+
+Default file associations: `.robot.j2`, `.robot.jinja`, `.robot.jinja2`, `.resource.j2`, `.resource.jinja` and `.resource.jinja2`.
 
 ## Extra File Associations
 
