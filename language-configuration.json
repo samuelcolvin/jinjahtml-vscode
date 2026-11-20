@@ -18,6 +18,9 @@
     ["{#", "#}"],
     ["{%", "%}"],
     ["{{", "}}"],
+    ["{# ", " #}"],
+    ["{% ", " %}"],
+    ["{{ ", " }}"],
     ["{", "}"],
     ["[", "]"],
     ["(", ")"],
@@ -34,8 +37,8 @@
   ],
   "folding": {
     "markers": {
-      "start": "^\\s*{%\\s*(block|filter|for|if|macro|raw).*%}",
-      "end": "^\\s*{%\\s*end(block|filter|for|if|macro|raw)\\s*%}"
+      "start": "^\\s*{%[-+]?\\s*(block|filter|for|if|macro|raw)\\b.*%}",
+      "end": "^\\s*{%[-+]?\\s*end(block|filter|for|if|macro|raw)\\s*[-+]?%}"
     }
   },
   "onEnterRules": [
@@ -45,8 +48,8 @@
       "action": {"indent": "indentOutdent"}
     },
     {
-      "beforeText": "\\{%\\s*(block|if|for|with|macro|call|filter|raw|autoescape)\\b.*%\\}\\s*$",
-      "afterText": "^\\s*\\{%\\s*end\\w+\\b.*%\\}",
+      "beforeText": "\\{%[-+]?\\s*(block|if|for|with|macro|call|filter|raw|autoescape)\\b.*%\\}\\s*$",
+      "afterText": "^\\s*\\{%[-+]?\\s*end\\w+\\b.*%\\}",
       "action": {"indent": "indentOutdent"}
     }
   ]

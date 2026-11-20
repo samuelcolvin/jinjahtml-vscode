@@ -1,12 +1,12 @@
 {
   "comments": {
     // symbols used for start and end a block comment. Remove this entry if your language does not support block comments
-    "blockComment": ["((#", "#))"]
+    "blockComment": ["((=", "=))"]
   },
   // symbols used as brackets
   "brackets": [
     ["((*", "*))"],
-    ["((#", "#))"],
+    ["((=", "=))"],
     ["(((", ")))"],
     ["((", "))"],
     ["(", ")"],
@@ -17,8 +17,11 @@
   "autoClosingPairs": [
     ["@/", "/"],
     ["((*", "*))"],
-    ["((#", "#))"],
+    ["((=", "=))"],
     ["(((", ")))"],
+    ["((* ", " *))"],
+    ["((= ", " =))"],
+    ["((( ", " )))"],
     ["((", "))"],
     ["(", ")"],
     ["{", "}"],
@@ -36,8 +39,8 @@
   ],
   "folding": {
     "markers": {
-      "start": "\\(\\(\\*\\s*(block|filter|for|if|macro|raw)",
-      "end": "\\(\\(\\*\\s*end(block|filter|for|if|macro|raw)\\s*\\*\\)\\)"
+      "start": "\\(\\(\\*[+-]?\\s*(block|filter|for|if|macro|raw)",
+      "end": "\\(\\(\\*[+-]?\\s*end(block|filter|for|if|macro|raw)\\s*[+-]?\\*\\)\\)"
     }
   }
 }
