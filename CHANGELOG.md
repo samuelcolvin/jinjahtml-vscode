@@ -1,5 +1,10 @@
 # Change Log
 
+## [0.21] - 2026-05-04
+
+- Support `.m.jinja` file extensions, #179
+- Fix scroll-map view, #168
+
 ## [0.20] - 2023-01-23
 
 - Support `.yml.jinja`/`.yaml.jinja` file extensions, #126

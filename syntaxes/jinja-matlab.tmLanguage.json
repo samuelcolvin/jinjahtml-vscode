@@ -1,0 +1,22 @@
+{
+  "name": "jinja-matlab",
+  "scopeName": "source.matlab.jinja",
+  "comment": "Jinja Matlab Templates",
+  "patterns": [],
+  "injections": {
+    "L:source.matlab": {
+      "patterns": [
+        {
+          "include": "source.jinja"
+        }
+      ]
+    },
+    "source.matlab -entity.other.jinja.delimiter.tag -meta.scope.jinja.tag -comment.block.jinja -string -comment -entity -support -interpolation -source.shell": {
+      "patterns": [
+        {
+          "include": "source.matlab"
+        }
+      ]
+    }
+  }
+}
