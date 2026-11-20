@@ -1,10 +1,22 @@
 {% extends %}
+{% set x = y %}
+{% if whatever %}
+{% for x in whatever %}
+{{ whatever }}
+{% endfor %}
+{# whatever #}
+{% endif %}
+
 <div> whatever</div>
 <script amp-template>{{ works_fine }}</script>
 {{ does_not('work fine') }}
 {{ inline_css('inline.css') }}
 <foobar>{{ inline_css('inline.css') }}</foobar>
 <div>"whatever"{{ thing }}</div>
-<div>
+<div>"whatever{{ thing }}"</div>
+<div class="myclass" style="color: blue;">
   whatever
+</div>
+<div class="{{myclass}}" {% if STYLE %} style="color: blue;" {% endif %}>
+  {{whatever}}
 </div>

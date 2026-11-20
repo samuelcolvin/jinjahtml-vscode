@@ -1,6 +1,40 @@
 # whatever
 
+{% set x = y %}
+
+{% if whatever %}
 {% for x in whatever %}
 {{ whatever }}
 {% endfor %}
+{# whatever #}
+{% endif %}
 
+**fat**
+**{{ whatever }}**
+*italic*
+*{{ whatever }}*
+
+## Lists
+
+- item
+- {{ whatever }}
+- {% if whatever %} item {% endif %}
+
+1. first
+2. {{ whatever }}
+3. {% if whatever %} item {% endif %}
+
+> quote
+> **quote**
+> # quote
+> {{ whatever }}
+> **{{ whatever }}**
+> # {{ whatever }}
+> {% if whatever %} item {% endif %}
+
+    code block
+    **does it work**
+    {{ whatever }}
+    {% if whatever %} item {% endif %}
+    > {{ whatever }}
+    > **{{ whatever }}**
