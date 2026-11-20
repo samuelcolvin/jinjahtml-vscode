@@ -143,6 +143,14 @@ Jinja Nginx Conf templates: system name `jinja-nginx`.
 
 Default file associations: `.conf.j2`, `.conf.jinja`, and `.conf.jinja2`.
 
+### Jinja Apache
+
+Jinja Apache Conf templates: system name `jinja-apacheconf`, requires an extension providing the `source.apacheconf`
+grammar, e.g. [Apache Conf](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-apache).
+
+Default file associations: `.htaccess.j2`, `.htaccess.jinja`, and `.htaccess.jinja2`. `.conf.j2` etc. are associated
+with Jinja Nginx, use `files.associations` to use Jinja Apache for those files.
+
 ### Jinja Groovy
 
 Jinja Groovy templates: system name `jinja-groovy`.
